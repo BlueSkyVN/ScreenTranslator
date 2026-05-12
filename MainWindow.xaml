@@ -12,8 +12,7 @@
                     Command="{Binding SelectRegionCommand}" Cursor="Hand"/>
                     
             <CheckBox Content="Start Real-Time Translation" FontSize="16" 
-                      IsChecked="{Binding IsRunning, Mode=TwoWay}"
-                      Command="{Binding StartTranslationCommand}"/>
+                      IsChecked="{Binding IsRunning, Mode=TwoWay}" />
             
             <StackPanel Orientation="Horizontal" Margin="0,15,0,0">
                 <TextBlock Text="Target Language:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>

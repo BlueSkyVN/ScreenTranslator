@@ -28,7 +28,6 @@ namespace ScreenTranslator.ViewModels
             _translationService = new TranslationService();
 
             SelectRegionCommand = new RelayCommand(_ => SelectRegion());
-            StartTranslationCommand = new RelayCommand(_ => ToggleTranslation());
 
             // Default capture region (bottom 30% of screen)
             int screenW = (int)SystemParameters.PrimaryScreenWidth;
@@ -78,6 +77,24 @@ namespace ScreenTranslator.ViewModels
                 {
                     StatusText = value ? "Running" : "Stopped";
                     StatusColor = value ? "Green" : "Red";
+
+                    if (value)
+                    {
+                        if (string.IsNullOrWhiteSpace(ApiKey))
+                        {
+                            MessageBox.Show("Vui lòng nhập API Key trước khi bắt đầu!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
+                            Application.Current.Dispatcher.InvokeAsync(() => IsRunning = false);
+                            return;
+                        }
+
+                        _cts = new CancellationTokenSource();
+                        Task.Run(() => TranslationLoop(_cts.Token));
+                    }
+                    else
+                    {
+                        _cts?.Cancel();
+                        _overlay?.UpdateText("");
+                    }
                 }
             }
         }
@@ -104,7 +121,7 @@ namespace ScreenTranslator.ViewModels
         }
 
         public ICommand SelectRegionCommand { get; }
-        public ICommand StartTranslationCommand { get; }
+        // Xóa StartTranslationCommand vì logic đã được gộp vào IsRunning
 
         private void SelectRegion()
         {
@@ -113,32 +130,6 @@ namespace ScreenTranslator.ViewModels
             {
                 _captureRegion = regionWindow.SelectedRegion;
                 MessageBox.Show($"Region updated:\nLocation: ({_captureRegion.X}, {_captureRegion.Y})\nSize: {_captureRegion.Width}x{_captureRegion.Height}", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
-        }
-
-        private void ToggleTranslation()
-        {
-            if (IsRunning)
-            {
-                // Stop
-                IsRunning = false;
-                _cts?.Cancel();
-                _overlay?.UpdateText("");
-            }
-            else
-            {
-                // Start
-                if (string.IsNullOrWhiteSpace(ApiKey))
-                {
-                    MessageBox.Show("Vui lòng nhập API Key trước khi bắt đầu!", "Lỗi", MessageBoxButton.OK, MessageBoxImage.Warning);
-                    // Cannot unset the checkbox easily without full binding on IsChecked, but let's assume IsRunning controls it.
-                    IsRunning = false;
-                    return;
-                }
-
-                IsRunning = true;
-                _cts = new CancellationTokenSource();
-                Task.Run(() => TranslationLoop(_cts.Token));
             }
         }
 
