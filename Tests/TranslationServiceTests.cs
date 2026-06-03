@@ -49,8 +49,9 @@ namespace ScreenTranslator.Tests
             string result = await _translationService.TranslateAsync(text, targetLang: "vi", apiKey: invalidKey, apiType: "openai", modelName: "gpt-4o-mini");
 
             // Assert
-            Assert.Contains("Error", result);
-            _output.WriteLine($"Invalid Key Test Passed. Error message received: {result}");
+            Assert.True(_translationService.IsFallbackActive, "Hệ thống tự động chuyển vùng dự phòng khi lỗi API Key");
+            Assert.False(string.IsNullOrWhiteSpace(result), "Kết quả dịch dự phòng không được để trống");
+            _output.WriteLine($"Invalid Key Test Passed. Fallback activated successfully: {result}");
         }
 
         [Fact]
@@ -107,6 +108,17 @@ namespace ScreenTranslator.Tests
 
             // OpenAI thường ưu tiên chất lượng hơn tốc độ, ngưỡng mong đợi có thể cao hơn đôi chút (~1500ms).
             Assert.True(sw.ElapsedMilliseconds < 2500, "OpenAI API trả về quá chậm (> 2.5 giây).");
+        }
+
+        [Fact]
+        public async Task TranslateAsync_LocalOffline_WhenModelFilesAreMissing_ReturnsGracefulInstructionString()
+        {
+            // Act
+            string result = await _translationService.TranslateAsync("Hello", apiType: "local_offline");
+
+            // Assert
+            Assert.Contains("Không tìm thấy tệp mô hình ngoại tuyến", result);
+            _output.WriteLine($"Offline fallback instruction test passed: {result}");
         }
     }
 }

@@ -7,7 +7,7 @@
         Topmost="True" ShowInTaskbar="False"
         MouseDown="Window_MouseDown" Cursor="Hand">
     <Grid>
-        <Border Background="#CC000000" CornerRadius="10" Padding="15" Margin="10">
+        <Border x:Name="OverlayBorder" Background="#CC000000" CornerRadius="10" Padding="15" Margin="10">
             <Border.Effect>
                 <DropShadowEffect Color="Black" BlurRadius="10" ShadowDepth="3" Opacity="0.5" />
             </Border.Effect>

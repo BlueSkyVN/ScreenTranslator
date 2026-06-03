@@ -1,0 +1,15 @@
+{
+  "ApiKey": "",
+  "ApiModel": "local_offline|none",
+  "TargetLang": "vi",
+  "OverlayOpacity": 0.7000000000000001,
+  "OverlayFontSize": 24,
+  "OverlayTextColor": "#F4F4F5",
+  "LockOverlayClickThrough": false,
+  "CaptureRegion": {
+    "X": 90,
+    "Y": 677,
+    "Width": 1197,
+    "Height": 212
+  }
+}
