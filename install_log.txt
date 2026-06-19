@@ -1,0 +1,2102 @@
+﻿2026-06-19 09:19:50.367   Log opened. (Time zone: UTC+07:00)
+2026-06-19 09:19:50.367   Setup version: Inno Setup version 6.7.3
+2026-06-19 09:19:50.367   Original Setup EXE: C:\Users\PC\OneDrive\Máy tính\MyProject\ScreenTranslator\Installer\Output\ScreenTranslatorPro_Setup_v3.0.exe
+2026-06-19 09:19:50.367   Setup command line: /SL5="$D08D6,51692653,929280,C:\Users\PC\OneDrive\Máy tính\MyProject\ScreenTranslator\Installer\Output\ScreenTranslatorPro_Setup_v3.0.exe" /VERYSILENT /SUPPRESSMSGBOXES /LOG=install_log.txt
+2026-06-19 09:19:50.367   Windows version: 10.0.26200
+2026-06-19 09:19:50.367   Windows architecture: x64 (64-bit)
+2026-06-19 09:19:50.367   Machine types supported by system: x86 x64
+2026-06-19 09:19:50.367   User privileges: None
+2026-06-19 09:19:50.372   Administrative install mode: No
+2026-06-19 09:19:50.372   Install mode root key: HKEY_CURRENT_USER
+2026-06-19 09:19:50.372   64-bit install mode: Yes
+2026-06-19 09:19:50.372   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-06-19 09:19:50.373   Created temporary directory: C:\Users\PC\AppData\Local\Temp\is-2DT2TZN76W.tmp
+2026-06-19 09:19:50.481   Found 403 files to register with RestartManager.
+2026-06-19 09:19:50.481   Calling RestartManager's RmGetList.
+2026-06-19 09:19:50.527   RmGetList finished successfully.
+2026-06-19 09:19:50.527   RestartManager found no applications using one of our files.
+2026-06-19 09:19:50.530   Starting the installation process.
+2026-06-19 09:19:50.531   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro
+2026-06-19 09:19:50.531   Directory for uninstall files: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro
+2026-06-19 09:19:50.531   Creating new uninstall log: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\unins000.dat
+2026-06-19 09:19:50.534   -- File entry --
+2026-06-19 09:19:50.534   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\unins000.exe
+2026-06-19 09:19:50.534   Non-default bitness: 32-bit
+2026-06-19 09:19:50.536   Time stamp of our file: 2026-06-19 09:19:50.140
+2026-06-19 09:19:50.536   Installing the file.
+2026-06-19 09:19:50.540   Successfully installed the file.
+2026-06-19 09:19:50.540   -- File entry --
+2026-06-19 09:19:50.540   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Accessibility.dll
+2026-06-19 09:19:50.540   Time stamp of our file: 2026-03-04 02:54:08.000
+2026-06-19 09:19:50.540   Installing the file.
+2026-06-19 09:19:50.543   Successfully installed the file.
+2026-06-19 09:19:50.543   -- File entry --
+2026-06-19 09:19:50.543   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\clretwrc.dll
+2026-06-19 09:19:50.543   Time stamp of our file: 2026-03-04 01:49:16.000
+2026-06-19 09:19:50.543   Installing the file.
+2026-06-19 09:19:50.548   Successfully installed the file.
+2026-06-19 09:19:50.548   -- File entry --
+2026-06-19 09:19:50.548   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\clrgc.dll
+2026-06-19 09:19:50.548   Time stamp of our file: 2026-03-04 01:48:44.000
+2026-06-19 09:19:50.549   Installing the file.
+2026-06-19 09:19:50.571   Successfully installed the file.
+2026-06-19 09:19:50.571   -- File entry --
+2026-06-19 09:19:50.571   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\clrgcexp.dll
+2026-06-19 09:19:50.571   Time stamp of our file: 2026-03-04 01:48:44.000
+2026-06-19 09:19:50.571   Installing the file.
+2026-06-19 09:19:50.595   Successfully installed the file.
+2026-06-19 09:19:50.595   -- File entry --
+2026-06-19 09:19:50.595   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\clrjit.dll
+2026-06-19 09:19:50.595   Time stamp of our file: 2026-03-04 01:49:54.000
+2026-06-19 09:19:50.595   Installing the file.
+2026-06-19 09:19:50.666   Successfully installed the file.
+2026-06-19 09:19:50.666   -- File entry --
+2026-06-19 09:19:50.666   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\coreclr.dll
+2026-06-19 09:19:50.666   Time stamp of our file: 2026-03-04 01:50:48.000
+2026-06-19 09:19:50.666   Installing the file.
+2026-06-19 09:19:50.794   Successfully installed the file.
+2026-06-19 09:19:50.794   -- File entry --
+2026-06-19 09:19:50.794   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\createdump.exe
+2026-06-19 09:19:50.794   Time stamp of our file: 2026-03-04 01:49:20.000
+2026-06-19 09:19:50.794   Installing the file.
+2026-06-19 09:19:50.796   Successfully installed the file.
+2026-06-19 09:19:50.796   -- File entry --
+2026-06-19 09:19:50.796   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\D3DCompiler_47_cor3.dll
+2026-06-19 09:19:50.797   Time stamp of our file: 2025-10-15 21:37:10.000
+2026-06-19 09:19:50.797   Installing the file.
+2026-06-19 09:19:50.932   Successfully installed the file.
+2026-06-19 09:19:50.932   -- File entry --
+2026-06-19 09:19:50.932   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\DirectWriteForwarder.dll
+2026-06-19 09:19:50.932   Time stamp of our file: 2026-03-04 03:16:10.000
+2026-06-19 09:19:50.932   Installing the file.
+2026-06-19 09:19:50.947   Successfully installed the file.
+2026-06-19 09:19:50.947   -- File entry --
+2026-06-19 09:19:50.947   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\hostfxr.dll
+2026-06-19 09:19:50.947   Time stamp of our file: 2026-03-04 02:08:38.000
+2026-06-19 09:19:50.947   Installing the file.
+2026-06-19 09:19:50.958   Successfully installed the file.
+2026-06-19 09:19:50.958   -- File entry --
+2026-06-19 09:19:50.958   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\hostpolicy.dll
+2026-06-19 09:19:50.958   Time stamp of our file: 2026-03-04 02:08:38.000
+2026-06-19 09:19:50.958   Installing the file.
+2026-06-19 09:19:50.967   Successfully installed the file.
+2026-06-19 09:19:50.968   -- File entry --
+2026-06-19 09:19:50.968   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.CSharp.dll
+2026-06-19 09:19:50.968   Time stamp of our file: 2026-03-04 02:27:44.000
+2026-06-19 09:19:50.968   Installing the file.
+2026-06-19 09:19:51.006   Successfully installed the file.
+2026-06-19 09:19:51.006   -- File entry --
+2026-06-19 09:19:51.006   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.DiaSymReader.Native.amd64.dll
+2026-06-19 09:19:51.006   Time stamp of our file: 2024-04-28 06:20:08.000
+2026-06-19 09:19:51.006   Installing the file.
+2026-06-19 09:19:51.057   Successfully installed the file.
+2026-06-19 09:19:51.057   -- File entry --
+2026-06-19 09:19:51.057   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.ML.OnnxRuntime.dll
+2026-06-19 09:19:51.057   Time stamp of our file: 2026-05-08 23:11:02.000
+2026-06-19 09:19:51.057   Installing the file.
+2026-06-19 09:19:51.065   Successfully installed the file.
+2026-06-19 09:19:51.065   -- File entry --
+2026-06-19 09:19:51.065   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.VisualBasic.Core.dll
+2026-06-19 09:19:51.065   Time stamp of our file: 2026-03-04 02:27:44.000
+2026-06-19 09:19:51.065   Installing the file.
+2026-06-19 09:19:51.099   Successfully installed the file.
+2026-06-19 09:19:51.099   -- File entry --
+2026-06-19 09:19:51.099   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.VisualBasic.dll
+2026-06-19 09:19:51.099   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:51.099   Installing the file.
+2026-06-19 09:19:51.100   Successfully installed the file.
+2026-06-19 09:19:51.100   -- File entry --
+2026-06-19 09:19:51.100   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.Win32.Primitives.dll
+2026-06-19 09:19:51.101   Time stamp of our file: 2026-03-04 02:09:52.000
+2026-06-19 09:19:51.101   Installing the file.
+2026-06-19 09:19:51.102   Successfully installed the file.
+2026-06-19 09:19:51.102   -- File entry --
+2026-06-19 09:19:51.102   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.Win32.Registry.AccessControl.dll
+2026-06-19 09:19:51.102   Time stamp of our file: 2026-03-04 03:15:44.000
+2026-06-19 09:19:51.102   Installing the file.
+2026-06-19 09:19:51.103   Successfully installed the file.
+2026-06-19 09:19:51.103   -- File entry --
+2026-06-19 09:19:51.103   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.Win32.Registry.dll
+2026-06-19 09:19:51.103   Time stamp of our file: 2026-03-04 02:27:44.000
+2026-06-19 09:19:51.103   Installing the file.
+2026-06-19 09:19:51.107   Successfully installed the file.
+2026-06-19 09:19:51.108   -- File entry --
+2026-06-19 09:19:51.108   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.Win32.SystemEvents.dll
+2026-06-19 09:19:51.108   Time stamp of our file: 2026-03-04 03:15:46.000
+2026-06-19 09:19:51.108   Installing the file.
+2026-06-19 09:19:51.112   Successfully installed the file.
+2026-06-19 09:19:51.112   -- File entry --
+2026-06-19 09:19:51.112   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\Microsoft.Windows.SDK.NET.dll
+2026-06-19 09:19:51.112   Time stamp of our file: 2024-11-12 00:23:04.000
+2026-06-19 09:19:51.112   Installing the file.
+2026-06-19 09:19:51.539   Successfully installed the file.
+2026-06-19 09:19:51.539   -- File entry --
+2026-06-19 09:19:51.540   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\mscordaccore.dll
+2026-06-19 09:19:51.540   Time stamp of our file: 2026-03-04 01:49:24.000
+2026-06-19 09:19:51.540   Installing the file.
+2026-06-19 09:19:51.576   Successfully installed the file.
+2026-06-19 09:19:51.576   -- File entry --
+2026-06-19 09:19:51.576   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\mscordaccore_amd64_amd64_10.0.526.15411.dll
+2026-06-19 09:19:51.576   Time stamp of our file: 2026-03-04 01:49:24.000
+2026-06-19 09:19:51.576   Installing the file.
+2026-06-19 09:19:51.587   Successfully installed the file.
+2026-06-19 09:19:51.587   -- File entry --
+2026-06-19 09:19:51.589   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\mscordbi.dll
+2026-06-19 09:19:51.589   Time stamp of our file: 2026-03-04 01:47:08.000
+2026-06-19 09:19:51.589   Installing the file.
+2026-06-19 09:19:51.615   Successfully installed the file.
+2026-06-19 09:19:51.615   -- File entry --
+2026-06-19 09:19:51.615   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\mscorlib.dll
+2026-06-19 09:19:51.615   Time stamp of our file: 2026-03-04 02:14:12.000
+2026-06-19 09:19:51.615   Installing the file.
+2026-06-19 09:19:51.617   Successfully installed the file.
+2026-06-19 09:19:51.617   -- File entry --
+2026-06-19 09:19:51.617   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\mscorrc.dll
+2026-06-19 09:19:51.617   Time stamp of our file: 2026-03-04 01:49:18.000
+2026-06-19 09:19:51.617   Installing the file.
+2026-06-19 09:19:51.619   Successfully installed the file.
+2026-06-19 09:19:51.619   -- File entry --
+2026-06-19 09:19:51.619   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\msquic.dll
+2026-06-19 09:19:51.619   Time stamp of our file: 2025-10-24 21:45:32.000
+2026-06-19 09:19:51.619   Installing the file.
+2026-06-19 09:19:51.635   Successfully installed the file.
+2026-06-19 09:19:51.635   -- File entry --
+2026-06-19 09:19:51.635   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\netstandard.dll
+2026-06-19 09:19:51.635   Time stamp of our file: 2026-03-04 02:14:36.000
+2026-06-19 09:19:51.635   Installing the file.
+2026-06-19 09:19:51.638   Successfully installed the file.
+2026-06-19 09:19:51.638   -- File entry --
+2026-06-19 09:19:51.638   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\onnxruntime.dll
+2026-06-19 09:19:51.638   Time stamp of our file: 2026-05-08 21:30:40.000
+2026-06-19 09:19:51.638   Installing the file.
+2026-06-19 09:19:51.948   Successfully installed the file.
+2026-06-19 09:19:51.948   -- File entry --
+2026-06-19 09:19:51.948   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\onnxruntime.lib
+2026-06-19 09:19:51.948   Time stamp of our file: 2026-05-08 21:16:54.000
+2026-06-19 09:19:51.948   Installing the file.
+2026-06-19 09:19:51.949   Successfully installed the file.
+2026-06-19 09:19:51.949   -- File entry --
+2026-06-19 09:19:51.949   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\onnxruntime_providers_shared.dll
+2026-06-19 09:19:51.949   Time stamp of our file: 2026-05-08 21:30:50.000
+2026-06-19 09:19:51.949   Installing the file.
+2026-06-19 09:19:51.951   Successfully installed the file.
+2026-06-19 09:19:51.951   -- File entry --
+2026-06-19 09:19:51.951   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\onnxruntime_providers_shared.lib
+2026-06-19 09:19:51.951   Time stamp of our file: 2026-05-08 21:16:02.000
+2026-06-19 09:19:51.951   Installing the file.
+2026-06-19 09:19:51.952   Successfully installed the file.
+2026-06-19 09:19:51.952   -- File entry --
+2026-06-19 09:19:51.952   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PenImc_cor3.dll
+2026-06-19 09:19:51.952   Time stamp of our file: 2026-03-04 03:05:16.000
+2026-06-19 09:19:51.952   Installing the file.
+2026-06-19 09:19:51.957   Successfully installed the file.
+2026-06-19 09:19:51.957   -- File entry --
+2026-06-19 09:19:51.957   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationCore.dll
+2026-06-19 09:19:51.957   Time stamp of our file: 2026-03-04 03:16:16.000
+2026-06-19 09:19:51.957   Installing the file.
+2026-06-19 09:19:52.168   Successfully installed the file.
+2026-06-19 09:19:52.168   -- File entry --
+2026-06-19 09:19:52.168   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework-SystemCore.dll
+2026-06-19 09:19:52.168   Time stamp of our file: 2026-03-04 03:16:16.000
+2026-06-19 09:19:52.168   Installing the file.
+2026-06-19 09:19:52.169   Successfully installed the file.
+2026-06-19 09:19:52.169   -- File entry --
+2026-06-19 09:19:52.169   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework-SystemData.dll
+2026-06-19 09:19:52.169   Time stamp of our file: 2026-03-04 03:16:16.000
+2026-06-19 09:19:52.169   Installing the file.
+2026-06-19 09:19:52.171   Successfully installed the file.
+2026-06-19 09:19:52.171   -- File entry --
+2026-06-19 09:19:52.171   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework-SystemDrawing.dll
+2026-06-19 09:19:52.171   Time stamp of our file: 2026-03-04 03:16:16.000
+2026-06-19 09:19:52.171   Installing the file.
+2026-06-19 09:19:52.171   Successfully installed the file.
+2026-06-19 09:19:52.171   -- File entry --
+2026-06-19 09:19:52.171   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework-SystemXml.dll
+2026-06-19 09:19:52.171   Time stamp of our file: 2026-03-04 03:16:16.000
+2026-06-19 09:19:52.171   Installing the file.
+2026-06-19 09:19:52.174   Successfully installed the file.
+2026-06-19 09:19:52.174   -- File entry --
+2026-06-19 09:19:52.174   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework-SystemXmlLinq.dll
+2026-06-19 09:19:52.175   Time stamp of our file: 2026-03-04 03:16:16.000
+2026-06-19 09:19:52.175   Installing the file.
+2026-06-19 09:19:52.176   Successfully installed the file.
+2026-06-19 09:19:52.176   -- File entry --
+2026-06-19 09:19:52.176   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.Aero.dll
+2026-06-19 09:19:52.176   Time stamp of our file: 2026-03-04 03:16:18.000
+2026-06-19 09:19:52.176   Installing the file.
+2026-06-19 09:19:52.186   Successfully installed the file.
+2026-06-19 09:19:52.186   -- File entry --
+2026-06-19 09:19:52.186   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.Aero2.dll
+2026-06-19 09:19:52.187   Time stamp of our file: 2026-03-04 03:16:18.000
+2026-06-19 09:19:52.187   Installing the file.
+2026-06-19 09:19:52.192   Successfully installed the file.
+2026-06-19 09:19:52.192   -- File entry --
+2026-06-19 09:19:52.192   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.AeroLite.dll
+2026-06-19 09:19:52.192   Time stamp of our file: 2026-03-04 03:16:18.000
+2026-06-19 09:19:52.192   Installing the file.
+2026-06-19 09:19:52.196   Successfully installed the file.
+2026-06-19 09:19:52.196   -- File entry --
+2026-06-19 09:19:52.196   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.Classic.dll
+2026-06-19 09:19:52.196   Time stamp of our file: 2026-03-04 03:16:18.000
+2026-06-19 09:19:52.196   Installing the file.
+2026-06-19 09:19:52.203   Successfully installed the file.
+2026-06-19 09:19:52.203   -- File entry --
+2026-06-19 09:19:52.203   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.dll
+2026-06-19 09:19:52.203   Time stamp of our file: 2026-03-04 03:16:26.000
+2026-06-19 09:19:52.203   Installing the file.
+2026-06-19 09:19:52.618   Successfully installed the file.
+2026-06-19 09:19:52.618   -- File entry --
+2026-06-19 09:19:52.618   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.Fluent.dll
+2026-06-19 09:19:52.618   Time stamp of our file: 2026-03-04 03:16:18.000
+2026-06-19 09:19:52.618   Installing the file.
+2026-06-19 09:19:52.631   Successfully installed the file.
+2026-06-19 09:19:52.631   -- File entry --
+2026-06-19 09:19:52.631   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.Luna.dll
+2026-06-19 09:19:52.631   Time stamp of our file: 2026-03-04 03:16:20.000
+2026-06-19 09:19:52.631   Installing the file.
+2026-06-19 09:19:52.642   Successfully installed the file.
+2026-06-19 09:19:52.642   -- File entry --
+2026-06-19 09:19:52.642   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationFramework.Royale.dll
+2026-06-19 09:19:52.642   Time stamp of our file: 2026-03-04 03:16:20.000
+2026-06-19 09:19:52.642   Installing the file.
+2026-06-19 09:19:52.648   Successfully installed the file.
+2026-06-19 09:19:52.648   -- File entry --
+2026-06-19 09:19:52.648   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationNative_cor3.dll
+2026-06-19 09:19:52.648   Time stamp of our file: 2026-02-03 18:10:08.000
+2026-06-19 09:19:52.648   Installing the file.
+2026-06-19 09:19:52.678   Successfully installed the file.
+2026-06-19 09:19:52.678   -- File entry --
+2026-06-19 09:19:52.678   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\PresentationUI.dll
+2026-06-19 09:19:52.678   Time stamp of our file: 2026-03-04 03:16:28.000
+2026-06-19 09:19:52.678   Installing the file.
+2026-06-19 09:19:52.713   Successfully installed the file.
+2026-06-19 09:19:52.713   -- File entry --
+2026-06-19 09:19:52.713   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ReachFramework.dll
+2026-06-19 09:19:52.713   Time stamp of our file: 2026-03-04 03:16:28.000
+2026-06-19 09:19:52.713   Installing the file.
+2026-06-19 09:19:52.752   Successfully installed the file.
+2026-06-19 09:19:52.752   -- File entry --
+2026-06-19 09:19:52.752   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ScreenTranslator.deps.json
+2026-06-19 09:19:52.754   Time stamp of our file: 2026-06-19 09:05:12.000
+2026-06-19 09:19:52.754   Installing the file.
+2026-06-19 09:19:52.755   Successfully installed the file.
+2026-06-19 09:19:52.755   -- File entry --
+2026-06-19 09:19:52.755   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ScreenTranslator.dll
+2026-06-19 09:19:52.755   Time stamp of our file: 2026-06-19 09:05:10.000
+2026-06-19 09:19:52.755   Installing the file.
+2026-06-19 09:19:52.762   Successfully installed the file.
+2026-06-19 09:19:52.762   -- File entry --
+2026-06-19 09:19:52.762   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ScreenTranslator.exe
+2026-06-19 09:19:52.762   Time stamp of our file: 2026-06-19 09:05:10.000
+2026-06-19 09:19:52.762   Installing the file.
+2026-06-19 09:19:52.767   Successfully installed the file.
+2026-06-19 09:19:52.767   -- File entry --
+2026-06-19 09:19:52.767   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ScreenTranslator.pdb
+2026-06-19 09:19:52.767   Time stamp of our file: 2026-06-19 09:05:10.000
+2026-06-19 09:19:52.767   Installing the file.
+2026-06-19 09:19:52.767   Successfully installed the file.
+2026-06-19 09:19:52.767   -- File entry --
+2026-06-19 09:19:52.767   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ScreenTranslator.runtimeconfig.json
+2026-06-19 09:19:52.767   Time stamp of our file: 2026-06-19 09:05:12.000
+2026-06-19 09:19:52.767   Installing the file.
+2026-06-19 09:19:52.772   Successfully installed the file.
+2026-06-19 09:19:52.772   -- File entry --
+2026-06-19 09:19:52.772   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.AppContext.dll
+2026-06-19 09:19:52.772   Time stamp of our file: 2026-03-04 02:13:28.000
+2026-06-19 09:19:52.772   Installing the file.
+2026-06-19 09:19:52.773   Successfully installed the file.
+2026-06-19 09:19:52.773   -- File entry --
+2026-06-19 09:19:52.773   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Buffers.dll
+2026-06-19 09:19:52.774   Time stamp of our file: 2026-03-04 02:13:28.000
+2026-06-19 09:19:52.774   Installing the file.
+2026-06-19 09:19:52.775   Successfully installed the file.
+2026-06-19 09:19:52.775   -- File entry --
+2026-06-19 09:19:52.775   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.CodeDom.dll
+2026-06-19 09:19:52.776   Time stamp of our file: 2026-03-04 03:15:46.000
+2026-06-19 09:19:52.776   Installing the file.
+2026-06-19 09:19:52.788   Successfully installed the file.
+2026-06-19 09:19:52.789   -- File entry --
+2026-06-19 09:19:52.789   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Collections.Concurrent.dll
+2026-06-19 09:19:52.789   Time stamp of our file: 2026-03-04 02:27:44.000
+2026-06-19 09:19:52.789   Installing the file.
+2026-06-19 09:19:52.797   Successfully installed the file.
+2026-06-19 09:19:52.797   -- File entry --
+2026-06-19 09:19:52.797   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Collections.dll
+2026-06-19 09:19:52.797   Time stamp of our file: 2026-03-04 02:27:44.000
+2026-06-19 09:19:52.797   Installing the file.
+2026-06-19 09:19:52.806   Successfully installed the file.
+2026-06-19 09:19:52.806   -- File entry --
+2026-06-19 09:19:52.806   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Collections.Immutable.dll
+2026-06-19 09:19:52.806   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.806   Installing the file.
+2026-06-19 09:19:52.831   Successfully installed the file.
+2026-06-19 09:19:52.831   -- File entry --
+2026-06-19 09:19:52.831   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Collections.NonGeneric.dll
+2026-06-19 09:19:52.832   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.832   Installing the file.
+2026-06-19 09:19:52.835   Successfully installed the file.
+2026-06-19 09:19:52.835   -- File entry --
+2026-06-19 09:19:52.835   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Collections.Specialized.dll
+2026-06-19 09:19:52.835   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.835   Installing the file.
+2026-06-19 09:19:52.839   Successfully installed the file.
+2026-06-19 09:19:52.839   -- File entry --
+2026-06-19 09:19:52.839   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ComponentModel.Annotations.dll
+2026-06-19 09:19:52.839   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.839   Installing the file.
+2026-06-19 09:19:52.845   Successfully installed the file.
+2026-06-19 09:19:52.845   -- File entry --
+2026-06-19 09:19:52.845   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ComponentModel.DataAnnotations.dll
+2026-06-19 09:19:52.845   Time stamp of our file: 2026-03-04 02:14:20.000
+2026-06-19 09:19:52.845   Installing the file.
+2026-06-19 09:19:52.845   Successfully installed the file.
+2026-06-19 09:19:52.845   -- File entry --
+2026-06-19 09:19:52.845   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ComponentModel.dll
+2026-06-19 09:19:52.845   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.845   Installing the file.
+2026-06-19 09:19:52.848   Successfully installed the file.
+2026-06-19 09:19:52.848   -- File entry --
+2026-06-19 09:19:52.849   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ComponentModel.EventBasedAsync.dll
+2026-06-19 09:19:52.849   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.849   Installing the file.
+2026-06-19 09:19:52.851   Successfully installed the file.
+2026-06-19 09:19:52.851   -- File entry --
+2026-06-19 09:19:52.851   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ComponentModel.Primitives.dll
+2026-06-19 09:19:52.852   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.852   Installing the file.
+2026-06-19 09:19:52.855   Successfully installed the file.
+2026-06-19 09:19:52.855   -- File entry --
+2026-06-19 09:19:52.855   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ComponentModel.TypeConverter.dll
+2026-06-19 09:19:52.855   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.855   Installing the file.
+2026-06-19 09:19:52.877   Successfully installed the file.
+2026-06-19 09:19:52.877   -- File entry --
+2026-06-19 09:19:52.877   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Configuration.ConfigurationManager.dll
+2026-06-19 09:19:52.877   Time stamp of our file: 2026-03-04 03:15:48.000
+2026-06-19 09:19:52.877   Installing the file.
+2026-06-19 09:19:52.907   Successfully installed the file.
+2026-06-19 09:19:52.907   -- File entry --
+2026-06-19 09:19:52.907   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Configuration.dll
+2026-06-19 09:19:52.907   Time stamp of our file: 2026-03-04 02:13:40.000
+2026-06-19 09:19:52.907   Installing the file.
+2026-06-19 09:19:52.907   Successfully installed the file.
+2026-06-19 09:19:52.907   -- File entry --
+2026-06-19 09:19:52.909   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Console.dll
+2026-06-19 09:19:52.909   Time stamp of our file: 2026-03-04 02:27:46.000
+2026-06-19 09:19:52.909   Installing the file.
+2026-06-19 09:19:52.914   Successfully installed the file.
+2026-06-19 09:19:52.914   -- File entry --
+2026-06-19 09:19:52.914   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Core.dll
+2026-06-19 09:19:52.914   Time stamp of our file: 2026-03-04 02:14:04.000
+2026-06-19 09:19:52.914   Installing the file.
+2026-06-19 09:19:52.916   Successfully installed the file.
+2026-06-19 09:19:52.916   -- File entry --
+2026-06-19 09:19:52.916   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Data.Common.dll
+2026-06-19 09:19:52.916   Time stamp of our file: 2026-03-04 02:27:48.000
+2026-06-19 09:19:52.916   Installing the file.
+2026-06-19 09:19:52.996   Successfully installed the file.
+2026-06-19 09:19:52.996   -- File entry --
+2026-06-19 09:19:52.996   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Data.DataSetExtensions.dll
+2026-06-19 09:19:52.996   Time stamp of our file: 2026-03-04 02:14:34.000
+2026-06-19 09:19:52.996   Installing the file.
+2026-06-19 09:19:52.996   Successfully installed the file.
+2026-06-19 09:19:52.996   -- File entry --
+2026-06-19 09:19:52.996   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Data.dll
+2026-06-19 09:19:52.996   Time stamp of our file: 2026-03-04 02:14:34.000
+2026-06-19 09:19:52.996   Installing the file.
+2026-06-19 09:19:52.996   Successfully installed the file.
+2026-06-19 09:19:52.996   -- File entry --
+2026-06-19 09:19:52.996   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.Contracts.dll
+2026-06-19 09:19:52.996   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:52.996   Installing the file.
+2026-06-19 09:19:52.996   Successfully installed the file.
+2026-06-19 09:19:52.996   -- File entry --
+2026-06-19 09:19:52.996   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.Debug.dll
+2026-06-19 09:19:53.001   Time stamp of our file: 2026-03-04 02:13:30.000
+2026-06-19 09:19:53.001   Installing the file.
+2026-06-19 09:19:53.002   Successfully installed the file.
+2026-06-19 09:19:53.002   -- File entry --
+2026-06-19 09:19:53.002   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.DiagnosticSource.dll
+2026-06-19 09:19:53.002   Time stamp of our file: 2026-03-04 02:27:48.000
+2026-06-19 09:19:53.002   Installing the file.
+2026-06-19 09:19:53.016   Successfully installed the file.
+2026-06-19 09:19:53.016   -- File entry --
+2026-06-19 09:19:53.016   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.EventLog.dll
+2026-06-19 09:19:53.016   Time stamp of our file: 2026-03-04 03:15:48.000
+2026-06-19 09:19:53.016   Installing the file.
+2026-06-19 09:19:53.027   Successfully installed the file.
+2026-06-19 09:19:53.027   -- File entry --
+2026-06-19 09:19:53.027   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.EventLog.Messages.dll
+2026-06-19 09:19:53.027   Time stamp of our file: 2026-03-04 02:16:46.000
+2026-06-19 09:19:53.027   Installing the file.
+2026-06-19 09:19:53.034   Successfully installed the file.
+2026-06-19 09:19:53.034   -- File entry --
+2026-06-19 09:19:53.034   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.FileVersionInfo.dll
+2026-06-19 09:19:53.036   Time stamp of our file: 2026-03-04 02:27:48.000
+2026-06-19 09:19:53.036   Installing the file.
+2026-06-19 09:19:53.037   Successfully installed the file.
+2026-06-19 09:19:53.037   -- File entry --
+2026-06-19 09:19:53.037   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.PerformanceCounter.dll
+2026-06-19 09:19:53.037   Time stamp of our file: 2026-03-04 03:15:48.000
+2026-06-19 09:19:53.037   Installing the file.
+2026-06-19 09:19:53.045   Successfully installed the file.
+2026-06-19 09:19:53.045   -- File entry --
+2026-06-19 09:19:53.045   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.Process.dll
+2026-06-19 09:19:53.045   Time stamp of our file: 2026-03-04 02:27:48.000
+2026-06-19 09:19:53.045   Installing the file.
+2026-06-19 09:19:53.057   Successfully installed the file.
+2026-06-19 09:19:53.057   -- File entry --
+2026-06-19 09:19:53.057   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.StackTrace.dll
+2026-06-19 09:19:53.057   Time stamp of our file: 2026-03-04 02:27:48.000
+2026-06-19 09:19:53.057   Installing the file.
+2026-06-19 09:19:53.059   Successfully installed the file.
+2026-06-19 09:19:53.059   -- File entry --
+2026-06-19 09:19:53.059   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.TextWriterTraceListener.dll
+2026-06-19 09:19:53.059   Time stamp of our file: 2026-03-04 02:27:48.000
+2026-06-19 09:19:53.059   Installing the file.
+2026-06-19 09:19:53.061   Successfully installed the file.
+2026-06-19 09:19:53.061   -- File entry --
+2026-06-19 09:19:53.061   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.Tools.dll
+2026-06-19 09:19:53.061   Time stamp of our file: 2026-03-04 02:13:28.000
+2026-06-19 09:19:53.061   Installing the file.
+2026-06-19 09:19:53.062   Successfully installed the file.
+2026-06-19 09:19:53.062   -- File entry --
+2026-06-19 09:19:53.062   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.TraceSource.dll
+2026-06-19 09:19:53.062   Time stamp of our file: 2026-03-04 02:27:48.000
+2026-06-19 09:19:53.062   Installing the file.
+2026-06-19 09:19:53.067   Successfully installed the file.
+2026-06-19 09:19:53.067   -- File entry --
+2026-06-19 09:19:53.067   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Diagnostics.Tracing.dll
+2026-06-19 09:19:53.067   Time stamp of our file: 2026-03-04 02:09:48.000
+2026-06-19 09:19:53.067   Installing the file.
+2026-06-19 09:19:53.068   Successfully installed the file.
+2026-06-19 09:19:53.068   -- File entry --
+2026-06-19 09:19:53.068   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.DirectoryServices.dll
+2026-06-19 09:19:53.068   Time stamp of our file: 2026-03-04 03:15:50.000
+2026-06-19 09:19:53.068   Installing the file.
+2026-06-19 09:19:53.095   Successfully installed the file.
+2026-06-19 09:19:53.096   -- File entry --
+2026-06-19 09:19:53.096   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.dll
+2026-06-19 09:19:53.096   Time stamp of our file: 2026-03-04 02:14:36.000
+2026-06-19 09:19:53.096   Installing the file.
+2026-06-19 09:19:53.096   Successfully installed the file.
+2026-06-19 09:19:53.096   -- File entry --
+2026-06-19 09:19:53.096   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Drawing.Common.dll
+2026-06-19 09:19:53.098   Time stamp of our file: 2026-03-04 03:15:56.000
+2026-06-19 09:19:53.098   Installing the file.
+2026-06-19 09:19:53.121   Successfully installed the file.
+2026-06-19 09:19:53.121   -- File entry --
+2026-06-19 09:19:53.121   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Drawing.dll
+2026-06-19 09:19:53.121   Time stamp of our file: 2026-03-04 02:14:18.000
+2026-06-19 09:19:53.121   Installing the file.
+2026-06-19 09:19:53.121   Successfully installed the file.
+2026-06-19 09:19:53.121   -- File entry --
+2026-06-19 09:19:53.121   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Drawing.Primitives.dll
+2026-06-19 09:19:53.121   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.121   Installing the file.
+2026-06-19 09:19:53.125   Successfully installed the file.
+2026-06-19 09:19:53.127   -- File entry --
+2026-06-19 09:19:53.127   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Dynamic.Runtime.dll
+2026-06-19 09:19:53.127   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:53.127   Installing the file.
+2026-06-19 09:19:53.127   Successfully installed the file.
+2026-06-19 09:19:53.127   -- File entry --
+2026-06-19 09:19:53.127   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Formats.Asn1.dll
+2026-06-19 09:19:53.127   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.127   Installing the file.
+2026-06-19 09:19:53.134   Successfully installed the file.
+2026-06-19 09:19:53.134   -- File entry --
+2026-06-19 09:19:53.134   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Formats.Nrbf.dll
+2026-06-19 09:19:53.134   Time stamp of our file: 2026-03-04 03:15:50.000
+2026-06-19 09:19:53.134   Installing the file.
+2026-06-19 09:19:53.139   Successfully installed the file.
+2026-06-19 09:19:53.139   -- File entry --
+2026-06-19 09:19:53.139   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Formats.Tar.dll
+2026-06-19 09:19:53.139   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.139   Installing the file.
+2026-06-19 09:19:53.145   Successfully installed the file.
+2026-06-19 09:19:53.145   -- File entry --
+2026-06-19 09:19:53.145   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Globalization.Calendars.dll
+2026-06-19 09:19:53.147   Time stamp of our file: 2026-03-04 02:13:30.000
+2026-06-19 09:19:53.147   Installing the file.
+2026-06-19 09:19:53.147   Successfully installed the file.
+2026-06-19 09:19:53.148   -- File entry --
+2026-06-19 09:19:53.148   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Globalization.dll
+2026-06-19 09:19:53.148   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:53.148   Installing the file.
+2026-06-19 09:19:53.149   Successfully installed the file.
+2026-06-19 09:19:53.149   -- File entry --
+2026-06-19 09:19:53.149   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Globalization.Extensions.dll
+2026-06-19 09:19:53.149   Time stamp of our file: 2026-03-04 02:13:28.000
+2026-06-19 09:19:53.149   Installing the file.
+2026-06-19 09:19:53.151   Successfully installed the file.
+2026-06-19 09:19:53.151   -- File entry --
+2026-06-19 09:19:53.151   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Compression.Brotli.dll
+2026-06-19 09:19:53.151   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.151   Installing the file.
+2026-06-19 09:19:53.154   Successfully installed the file.
+2026-06-19 09:19:53.154   -- File entry --
+2026-06-19 09:19:53.154   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Compression.dll
+2026-06-19 09:19:53.154   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.154   Installing the file.
+2026-06-19 09:19:53.166   Successfully installed the file.
+2026-06-19 09:19:53.166   -- File entry --
+2026-06-19 09:19:53.166   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Compression.FileSystem.dll
+2026-06-19 09:19:53.166   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:53.166   Installing the file.
+2026-06-19 09:19:53.166   Successfully installed the file.
+2026-06-19 09:19:53.166   -- File entry --
+2026-06-19 09:19:53.166   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Compression.Native.dll
+2026-06-19 09:19:53.166   Time stamp of our file: 2026-03-04 02:09:14.000
+2026-06-19 09:19:53.166   Installing the file.
+2026-06-19 09:19:53.190   Successfully installed the file.
+2026-06-19 09:19:53.192   -- File entry --
+2026-06-19 09:19:53.192   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Compression.ZipFile.dll
+2026-06-19 09:19:53.192   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.192   Installing the file.
+2026-06-19 09:19:53.194   Successfully installed the file.
+2026-06-19 09:19:53.194   -- File entry --
+2026-06-19 09:19:53.194   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.dll
+2026-06-19 09:19:53.194   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:53.194   Installing the file.
+2026-06-19 09:19:53.195   Successfully installed the file.
+2026-06-19 09:19:53.195   -- File entry --
+2026-06-19 09:19:53.196   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.FileSystem.AccessControl.dll
+2026-06-19 09:19:53.196   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.196   Installing the file.
+2026-06-19 09:19:53.199   Successfully installed the file.
+2026-06-19 09:19:53.199   -- File entry --
+2026-06-19 09:19:53.199   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.FileSystem.dll
+2026-06-19 09:19:53.199   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:53.199   Installing the file.
+2026-06-19 09:19:53.199   Successfully installed the file.
+2026-06-19 09:19:53.199   -- File entry --
+2026-06-19 09:19:53.199   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.FileSystem.DriveInfo.dll
+2026-06-19 09:19:53.199   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.199   Installing the file.
+2026-06-19 09:19:53.201   Successfully installed the file.
+2026-06-19 09:19:53.202   -- File entry --
+2026-06-19 09:19:53.202   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.FileSystem.Primitives.dll
+2026-06-19 09:19:53.202   Time stamp of our file: 2026-03-04 02:13:30.000
+2026-06-19 09:19:53.202   Installing the file.
+2026-06-19 09:19:53.202   Successfully installed the file.
+2026-06-19 09:19:53.202   -- File entry --
+2026-06-19 09:19:53.202   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.FileSystem.Watcher.dll
+2026-06-19 09:19:53.202   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.202   Installing the file.
+2026-06-19 09:19:53.205   Successfully installed the file.
+2026-06-19 09:19:53.205   -- File entry --
+2026-06-19 09:19:53.205   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.IsolatedStorage.dll
+2026-06-19 09:19:53.206   Time stamp of our file: 2026-03-04 02:27:50.000
+2026-06-19 09:19:53.206   Installing the file.
+2026-06-19 09:19:53.207   Successfully installed the file.
+2026-06-19 09:19:53.207   -- File entry --
+2026-06-19 09:19:53.207   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.MemoryMappedFiles.dll
+2026-06-19 09:19:53.207   Time stamp of our file: 2026-03-04 02:27:52.000
+2026-06-19 09:19:53.207   Installing the file.
+2026-06-19 09:19:53.210   Successfully installed the file.
+2026-06-19 09:19:53.210   -- File entry --
+2026-06-19 09:19:53.210   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Packaging.dll
+2026-06-19 09:19:53.211   Time stamp of our file: 2026-03-04 03:15:52.000
+2026-06-19 09:19:53.211   Installing the file.
+2026-06-19 09:19:53.216   Successfully installed the file.
+2026-06-19 09:19:53.216   -- File entry --
+2026-06-19 09:19:53.216   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Pipelines.dll
+2026-06-19 09:19:53.216   Time stamp of our file: 2026-03-04 02:27:52.000
+2026-06-19 09:19:53.216   Installing the file.
+2026-06-19 09:19:53.223   Successfully installed the file.
+2026-06-19 09:19:53.223   -- File entry --
+2026-06-19 09:19:53.223   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Pipes.AccessControl.dll
+2026-06-19 09:19:53.223   Time stamp of our file: 2026-03-04 02:11:00.000
+2026-06-19 09:19:53.223   Installing the file.
+2026-06-19 09:19:53.223   Successfully installed the file.
+2026-06-19 09:19:53.223   -- File entry --
+2026-06-19 09:19:53.223   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.Pipes.dll
+2026-06-19 09:19:53.223   Time stamp of our file: 2026-03-04 02:27:52.000
+2026-06-19 09:19:53.223   Installing the file.
+2026-06-19 09:19:53.231   Successfully installed the file.
+2026-06-19 09:19:53.231   -- File entry --
+2026-06-19 09:19:53.231   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.IO.UnmanagedMemoryStream.dll
+2026-06-19 09:19:53.231   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:53.231   Installing the file.
+2026-06-19 09:19:53.232   Successfully installed the file.
+2026-06-19 09:19:53.232   -- File entry --
+2026-06-19 09:19:53.232   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Linq.AsyncEnumerable.dll
+2026-06-19 09:19:53.232   Time stamp of our file: 2026-03-04 02:27:52.000
+2026-06-19 09:19:53.232   Installing the file.
+2026-06-19 09:19:53.260   Successfully installed the file.
+2026-06-19 09:19:53.260   -- File entry --
+2026-06-19 09:19:53.260   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Linq.dll
+2026-06-19 09:19:53.260   Time stamp of our file: 2026-03-04 02:27:52.000
+2026-06-19 09:19:53.260   Installing the file.
+2026-06-19 09:19:53.278   Successfully installed the file.
+2026-06-19 09:19:53.278   -- File entry --
+2026-06-19 09:19:53.278   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Linq.Expressions.dll
+2026-06-19 09:19:53.278   Time stamp of our file: 2026-03-04 02:27:54.000
+2026-06-19 09:19:53.278   Installing the file.
+2026-06-19 09:19:53.351   Successfully installed the file.
+2026-06-19 09:19:53.351   -- File entry --
+2026-06-19 09:19:53.351   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Linq.Parallel.dll
+2026-06-19 09:19:53.351   Time stamp of our file: 2026-03-04 02:27:54.000
+2026-06-19 09:19:53.351   Installing the file.
+2026-06-19 09:19:53.372   Successfully installed the file.
+2026-06-19 09:19:53.372   -- File entry --
+2026-06-19 09:19:53.372   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Linq.Queryable.dll
+2026-06-19 09:19:53.372   Time stamp of our file: 2026-03-04 02:27:54.000
+2026-06-19 09:19:53.372   Installing the file.
+2026-06-19 09:19:53.382   Successfully installed the file.
+2026-06-19 09:19:53.382   -- File entry --
+2026-06-19 09:19:53.382   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Memory.dll
+2026-06-19 09:19:53.382   Time stamp of our file: 2026-03-04 02:27:56.000
+2026-06-19 09:19:53.382   Installing the file.
+2026-06-19 09:19:53.388   Successfully installed the file.
+2026-06-19 09:19:53.388   -- File entry --
+2026-06-19 09:19:53.388   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.dll
+2026-06-19 09:19:53.388   Time stamp of our file: 2026-03-04 02:14:06.000
+2026-06-19 09:19:53.388   Installing the file.
+2026-06-19 09:19:53.390   Successfully installed the file.
+2026-06-19 09:19:53.390   -- File entry --
+2026-06-19 09:19:53.390   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Http.dll
+2026-06-19 09:19:53.390   Time stamp of our file: 2026-03-04 02:27:56.000
+2026-06-19 09:19:53.390   Installing the file.
+2026-06-19 09:19:53.465   Successfully installed the file.
+2026-06-19 09:19:53.466   -- File entry --
+2026-06-19 09:19:53.466   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Http.Json.dll
+2026-06-19 09:19:53.466   Time stamp of our file: 2026-03-04 02:27:56.000
+2026-06-19 09:19:53.466   Installing the file.
+2026-06-19 09:19:53.470   Successfully installed the file.
+2026-06-19 09:19:53.470   -- File entry --
+2026-06-19 09:19:53.470   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.HttpListener.dll
+2026-06-19 09:19:53.470   Time stamp of our file: 2026-03-04 02:27:56.000
+2026-06-19 09:19:53.470   Installing the file.
+2026-06-19 09:19:53.487   Successfully installed the file.
+2026-06-19 09:19:53.487   -- File entry --
+2026-06-19 09:19:53.487   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Mail.dll
+2026-06-19 09:19:53.488   Time stamp of our file: 2026-03-04 02:27:56.000
+2026-06-19 09:19:53.488   Installing the file.
+2026-06-19 09:19:53.502   Successfully installed the file.
+2026-06-19 09:19:53.502   -- File entry --
+2026-06-19 09:19:53.502   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.NameResolution.dll
+2026-06-19 09:19:53.503   Time stamp of our file: 2026-03-04 02:27:56.000
+2026-06-19 09:19:53.503   Installing the file.
+2026-06-19 09:19:53.506   Successfully installed the file.
+2026-06-19 09:19:53.506   -- File entry --
+2026-06-19 09:19:53.506   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.NetworkInformation.dll
+2026-06-19 09:19:53.506   Time stamp of our file: 2026-03-04 02:27:56.000
+2026-06-19 09:19:53.506   Installing the file.
+2026-06-19 09:19:53.512   Successfully installed the file.
+2026-06-19 09:19:53.512   -- File entry --
+2026-06-19 09:19:53.512   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Ping.dll
+2026-06-19 09:19:53.512   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.512   Installing the file.
+2026-06-19 09:19:53.515   Successfully installed the file.
+2026-06-19 09:19:53.515   -- File entry --
+2026-06-19 09:19:53.515   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Primitives.dll
+2026-06-19 09:19:53.517   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.517   Installing the file.
+2026-06-19 09:19:53.523   Successfully installed the file.
+2026-06-19 09:19:53.523   -- File entry --
+2026-06-19 09:19:53.523   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Quic.dll
+2026-06-19 09:19:53.523   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.523   Installing the file.
+2026-06-19 09:19:53.534   Successfully installed the file.
+2026-06-19 09:19:53.534   -- File entry --
+2026-06-19 09:19:53.534   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Requests.dll
+2026-06-19 09:19:53.534   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.534   Installing the file.
+2026-06-19 09:19:53.545   Successfully installed the file.
+2026-06-19 09:19:53.545   -- File entry --
+2026-06-19 09:19:53.545   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Security.dll
+2026-06-19 09:19:53.545   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.545   Installing the file.
+2026-06-19 09:19:53.566   Successfully installed the file.
+2026-06-19 09:19:53.566   -- File entry --
+2026-06-19 09:19:53.566   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.ServerSentEvents.dll
+2026-06-19 09:19:53.566   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.566   Installing the file.
+2026-06-19 09:19:53.569   Successfully installed the file.
+2026-06-19 09:19:53.570   -- File entry --
+2026-06-19 09:19:53.570   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.ServicePoint.dll
+2026-06-19 09:19:53.570   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:53.570   Installing the file.
+2026-06-19 09:19:53.571   Successfully installed the file.
+2026-06-19 09:19:53.571   -- File entry --
+2026-06-19 09:19:53.572   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.Sockets.dll
+2026-06-19 09:19:53.572   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.572   Installing the file.
+2026-06-19 09:19:53.588   Successfully installed the file.
+2026-06-19 09:19:53.588   -- File entry --
+2026-06-19 09:19:53.588   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.WebClient.dll
+2026-06-19 09:19:53.588   Time stamp of our file: 2026-03-04 02:27:58.000
+2026-06-19 09:19:53.588   Installing the file.
+2026-06-19 09:19:53.593   Successfully installed the file.
+2026-06-19 09:19:53.593   -- File entry --
+2026-06-19 09:19:53.593   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.WebHeaderCollection.dll
+2026-06-19 09:19:53.593   Time stamp of our file: 2026-03-04 02:28:00.000
+2026-06-19 09:19:53.593   Installing the file.
+2026-06-19 09:19:53.595   Successfully installed the file.
+2026-06-19 09:19:53.595   -- File entry --
+2026-06-19 09:19:53.595   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.WebProxy.dll
+2026-06-19 09:19:53.595   Time stamp of our file: 2026-03-04 02:28:00.000
+2026-06-19 09:19:53.595   Installing the file.
+2026-06-19 09:19:53.597   Successfully installed the file.
+2026-06-19 09:19:53.597   -- File entry --
+2026-06-19 09:19:53.597   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.WebSockets.Client.dll
+2026-06-19 09:19:53.597   Time stamp of our file: 2026-03-04 02:28:00.000
+2026-06-19 09:19:53.597   Installing the file.
+2026-06-19 09:19:53.601   Successfully installed the file.
+2026-06-19 09:19:53.601   -- File entry --
+2026-06-19 09:19:53.601   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Net.WebSockets.dll
+2026-06-19 09:19:53.601   Time stamp of our file: 2026-03-04 02:28:00.000
+2026-06-19 09:19:53.601   Installing the file.
+2026-06-19 09:19:53.608   Successfully installed the file.
+2026-06-19 09:19:53.608   -- File entry --
+2026-06-19 09:19:53.608   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Numerics.dll
+2026-06-19 09:19:53.608   Time stamp of our file: 2026-03-04 02:13:46.000
+2026-06-19 09:19:53.608   Installing the file.
+2026-06-19 09:19:53.608   Successfully installed the file.
+2026-06-19 09:19:53.608   -- File entry --
+2026-06-19 09:19:53.608   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Numerics.Tensors.dll
+2026-06-19 09:19:53.608   Time stamp of our file: 2024-10-29 09:38:12.000
+2026-06-19 09:19:53.608   Installing the file.
+2026-06-19 09:19:53.616   Successfully installed the file.
+2026-06-19 09:19:53.616   -- File entry --
+2026-06-19 09:19:53.616   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Numerics.Vectors.dll
+2026-06-19 09:19:53.619   Time stamp of our file: 2026-03-04 02:09:38.000
+2026-06-19 09:19:53.619   Installing the file.
+2026-06-19 09:19:53.619   Successfully installed the file.
+2026-06-19 09:19:53.619   -- File entry --
+2026-06-19 09:19:53.619   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ObjectModel.dll
+2026-06-19 09:19:53.619   Time stamp of our file: 2026-03-04 02:28:00.000
+2026-06-19 09:19:53.619   Installing the file.
+2026-06-19 09:19:53.622   Successfully installed the file.
+2026-06-19 09:19:53.622   -- File entry --
+2026-06-19 09:19:53.622   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Printing.dll
+2026-06-19 09:19:53.622   Time stamp of our file: 2026-03-04 03:16:28.000
+2026-06-19 09:19:53.622   Installing the file.
+2026-06-19 09:19:53.647   Successfully installed the file.
+2026-06-19 09:19:53.647   -- File entry --
+2026-06-19 09:19:53.647   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Private.CoreLib.dll
+2026-06-19 09:19:53.649   Time stamp of our file: 2026-03-04 01:54:54.000
+2026-06-19 09:19:53.649   Installing the file.
+2026-06-19 09:19:54.135   Successfully installed the file.
+2026-06-19 09:19:54.136   -- File entry --
+2026-06-19 09:19:54.136   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Private.DataContractSerialization.dll
+2026-06-19 09:19:54.136   Time stamp of our file: 2026-03-04 02:28:00.000
+2026-06-19 09:19:54.136   Installing the file.
+2026-06-19 09:19:54.205   Successfully installed the file.
+2026-06-19 09:19:54.205   -- File entry --
+2026-06-19 09:19:54.205   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Private.Uri.dll
+2026-06-19 09:19:54.205   Time stamp of our file: 2026-03-04 02:28:00.000
+2026-06-19 09:19:54.205   Installing the file.
+2026-06-19 09:19:54.216   Successfully installed the file.
+2026-06-19 09:19:54.216   -- File entry --
+2026-06-19 09:19:54.216   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Private.Windows.Core.dll
+2026-06-19 09:19:54.216   Time stamp of our file: 2026-03-04 03:15:58.000
+2026-06-19 09:19:54.216   Installing the file.
+2026-06-19 09:19:54.271   Successfully installed the file.
+2026-06-19 09:19:54.271   -- File entry --
+2026-06-19 09:19:54.271   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Private.Windows.GdiPlus.dll
+2026-06-19 09:19:54.271   Time stamp of our file: 2026-03-04 03:15:58.000
+2026-06-19 09:19:54.271   Installing the file.
+2026-06-19 09:19:54.284   Successfully installed the file.
+2026-06-19 09:19:54.284   -- File entry --
+2026-06-19 09:19:54.284   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Private.Xml.dll
+2026-06-19 09:19:54.284   Time stamp of our file: 2026-03-04 02:28:02.000
+2026-06-19 09:19:54.284   Installing the file.
+2026-06-19 09:19:54.545   Successfully installed the file.
+2026-06-19 09:19:54.545   -- File entry --
+2026-06-19 09:19:54.545   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Private.Xml.Linq.dll
+2026-06-19 09:19:54.547   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.547   Installing the file.
+2026-06-19 09:19:54.562   Successfully installed the file.
+2026-06-19 09:19:54.562   -- File entry --
+2026-06-19 09:19:54.562   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.DispatchProxy.dll
+2026-06-19 09:19:54.564   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.564   Installing the file.
+2026-06-19 09:19:54.567   Successfully installed the file.
+2026-06-19 09:19:54.567   -- File entry --
+2026-06-19 09:19:54.567   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.dll
+2026-06-19 09:19:54.567   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:54.567   Installing the file.
+2026-06-19 09:19:54.567   Successfully installed the file.
+2026-06-19 09:19:54.567   -- File entry --
+2026-06-19 09:19:54.567   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.Emit.dll
+2026-06-19 09:19:54.567   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.567   Installing the file.
+2026-06-19 09:19:54.581   Successfully installed the file.
+2026-06-19 09:19:54.581   -- File entry --
+2026-06-19 09:19:54.581   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.Emit.ILGeneration.dll
+2026-06-19 09:19:54.581   Time stamp of our file: 2026-03-04 02:10:00.000
+2026-06-19 09:19:54.581   Installing the file.
+2026-06-19 09:19:54.581   Successfully installed the file.
+2026-06-19 09:19:54.581   -- File entry --
+2026-06-19 09:19:54.581   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.Emit.Lightweight.dll
+2026-06-19 09:19:54.582   Time stamp of our file: 2026-03-04 02:10:02.000
+2026-06-19 09:19:54.582   Installing the file.
+2026-06-19 09:19:54.582   Successfully installed the file.
+2026-06-19 09:19:54.582   -- File entry --
+2026-06-19 09:19:54.582   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.Extensions.dll
+2026-06-19 09:19:54.582   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:54.582   Installing the file.
+2026-06-19 09:19:54.584   Successfully installed the file.
+2026-06-19 09:19:54.584   -- File entry --
+2026-06-19 09:19:54.584   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.Metadata.dll
+2026-06-19 09:19:54.584   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.584   Installing the file.
+2026-06-19 09:19:54.612   Successfully installed the file.
+2026-06-19 09:19:54.614   -- File entry --
+2026-06-19 09:19:54.614   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.Primitives.dll
+2026-06-19 09:19:54.614   Time stamp of our file: 2026-03-04 02:09:40.000
+2026-06-19 09:19:54.614   Installing the file.
+2026-06-19 09:19:54.615   Successfully installed the file.
+2026-06-19 09:19:54.616   -- File entry --
+2026-06-19 09:19:54.616   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Reflection.TypeExtensions.dll
+2026-06-19 09:19:54.616   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.616   Installing the file.
+2026-06-19 09:19:54.616   Successfully installed the file.
+2026-06-19 09:19:54.616   -- File entry --
+2026-06-19 09:19:54.618   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Resources.Extensions.dll
+2026-06-19 09:19:54.618   Time stamp of our file: 2026-03-04 03:15:52.000
+2026-06-19 09:19:54.618   Installing the file.
+2026-06-19 09:19:54.623   Successfully installed the file.
+2026-06-19 09:19:54.623   -- File entry --
+2026-06-19 09:19:54.623   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Resources.Reader.dll
+2026-06-19 09:19:54.623   Time stamp of our file: 2026-03-04 02:13:30.000
+2026-06-19 09:19:54.623   Installing the file.
+2026-06-19 09:19:54.623   Successfully installed the file.
+2026-06-19 09:19:54.623   -- File entry --
+2026-06-19 09:19:54.623   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Resources.ResourceManager.dll
+2026-06-19 09:19:54.625   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:54.625   Installing the file.
+2026-06-19 09:19:54.625   Successfully installed the file.
+2026-06-19 09:19:54.625   -- File entry --
+2026-06-19 09:19:54.625   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Resources.Writer.dll
+2026-06-19 09:19:54.625   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.625   Installing the file.
+2026-06-19 09:19:54.628   Successfully installed the file.
+2026-06-19 09:19:54.628   -- File entry --
+2026-06-19 09:19:54.628   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.CompilerServices.Unsafe.dll
+2026-06-19 09:19:54.628   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:54.628   Installing the file.
+2026-06-19 09:19:54.629   Successfully installed the file.
+2026-06-19 09:19:54.629   -- File entry --
+2026-06-19 09:19:54.629   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.CompilerServices.VisualC.dll
+2026-06-19 09:19:54.629   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.629   Installing the file.
+2026-06-19 09:19:54.629   Successfully installed the file.
+2026-06-19 09:19:54.629   -- File entry --
+2026-06-19 09:19:54.629   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.dll
+2026-06-19 09:19:54.629   Time stamp of our file: 2026-03-04 02:09:40.000
+2026-06-19 09:19:54.629   Installing the file.
+2026-06-19 09:19:54.631   Successfully installed the file.
+2026-06-19 09:19:54.631   -- File entry --
+2026-06-19 09:19:54.631   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Extensions.dll
+2026-06-19 09:19:54.631   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:54.631   Installing the file.
+2026-06-19 09:19:54.632   Successfully installed the file.
+2026-06-19 09:19:54.632   -- File entry --
+2026-06-19 09:19:54.632   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Handles.dll
+2026-06-19 09:19:54.632   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:54.632   Installing the file.
+2026-06-19 09:19:54.632   Successfully installed the file.
+2026-06-19 09:19:54.632   -- File entry --
+2026-06-19 09:19:54.632   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.InteropServices.dll
+2026-06-19 09:19:54.634   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.634   Installing the file.
+2026-06-19 09:19:54.637   Successfully installed the file.
+2026-06-19 09:19:54.637   -- File entry --
+2026-06-19 09:19:54.638   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.InteropServices.JavaScript.dll
+2026-06-19 09:19:54.638   Time stamp of our file: 2026-03-04 02:28:04.000
+2026-06-19 09:19:54.638   Installing the file.
+2026-06-19 09:19:54.639   Successfully installed the file.
+2026-06-19 09:19:54.639   -- File entry --
+2026-06-19 09:19:54.639   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.InteropServices.RuntimeInformation.dll
+2026-06-19 09:19:54.639   Time stamp of our file: 2026-03-04 02:13:46.000
+2026-06-19 09:19:54.639   Installing the file.
+2026-06-19 09:19:54.639   Successfully installed the file.
+2026-06-19 09:19:54.639   -- File entry --
+2026-06-19 09:19:54.639   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Intrinsics.dll
+2026-06-19 09:19:54.639   Time stamp of our file: 2026-03-04 02:09:52.000
+2026-06-19 09:19:54.639   Installing the file.
+2026-06-19 09:19:54.642   Successfully installed the file.
+2026-06-19 09:19:54.642   -- File entry --
+2026-06-19 09:19:54.642   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Loader.dll
+2026-06-19 09:19:54.642   Time stamp of our file: 2026-03-04 02:09:52.000
+2026-06-19 09:19:54.642   Installing the file.
+2026-06-19 09:19:54.642   Successfully installed the file.
+2026-06-19 09:19:54.642   -- File entry --
+2026-06-19 09:19:54.642   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Numerics.dll
+2026-06-19 09:19:54.642   Time stamp of our file: 2026-03-04 02:28:06.000
+2026-06-19 09:19:54.642   Installing the file.
+2026-06-19 09:19:54.654   Successfully installed the file.
+2026-06-19 09:19:54.654   -- File entry --
+2026-06-19 09:19:54.654   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Serialization.dll
+2026-06-19 09:19:54.654   Time stamp of our file: 2026-03-04 02:14:18.000
+2026-06-19 09:19:54.654   Installing the file.
+2026-06-19 09:19:54.655   Successfully installed the file.
+2026-06-19 09:19:54.655   -- File entry --
+2026-06-19 09:19:54.655   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Serialization.Formatters.dll
+2026-06-19 09:19:54.655   Time stamp of our file: 2026-03-04 02:28:06.000
+2026-06-19 09:19:54.655   Installing the file.
+2026-06-19 09:19:54.657   Successfully installed the file.
+2026-06-19 09:19:54.657   -- File entry --
+2026-06-19 09:19:54.657   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Serialization.Json.dll
+2026-06-19 09:19:54.657   Time stamp of our file: 2026-03-04 02:14:14.000
+2026-06-19 09:19:54.657   Installing the file.
+2026-06-19 09:19:54.660   Successfully installed the file.
+2026-06-19 09:19:54.660   -- File entry --
+2026-06-19 09:19:54.660   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Serialization.Primitives.dll
+2026-06-19 09:19:54.660   Time stamp of our file: 2026-03-04 02:28:06.000
+2026-06-19 09:19:54.660   Installing the file.
+2026-06-19 09:19:54.660   Successfully installed the file.
+2026-06-19 09:19:54.660   -- File entry --
+2026-06-19 09:19:54.660   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Runtime.Serialization.Xml.dll
+2026-06-19 09:19:54.663   Time stamp of our file: 2026-03-04 02:14:06.000
+2026-06-19 09:19:54.663   Installing the file.
+2026-06-19 09:19:54.663   Successfully installed the file.
+2026-06-19 09:19:54.663   -- File entry --
+2026-06-19 09:19:54.663   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.AccessControl.dll
+2026-06-19 09:19:54.664   Time stamp of our file: 2026-03-04 02:28:06.000
+2026-06-19 09:19:54.664   Installing the file.
+2026-06-19 09:19:54.669   Successfully installed the file.
+2026-06-19 09:19:54.669   -- File entry --
+2026-06-19 09:19:54.669   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Claims.dll
+2026-06-19 09:19:54.669   Time stamp of our file: 2026-03-04 02:28:06.000
+2026-06-19 09:19:54.669   Installing the file.
+2026-06-19 09:19:54.671   Successfully installed the file.
+2026-06-19 09:19:54.671   -- File entry --
+2026-06-19 09:19:54.671   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.Algorithms.dll
+2026-06-19 09:19:54.671   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:54.671   Installing the file.
+2026-06-19 09:19:54.675   Successfully installed the file.
+2026-06-19 09:19:54.675   -- File entry --
+2026-06-19 09:19:54.675   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.Cng.dll
+2026-06-19 09:19:54.675   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:54.675   Installing the file.
+2026-06-19 09:19:54.675   Successfully installed the file.
+2026-06-19 09:19:54.675   -- File entry --
+2026-06-19 09:19:54.677   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.Csp.dll
+2026-06-19 09:19:54.677   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:54.677   Installing the file.
+2026-06-19 09:19:54.677   Successfully installed the file.
+2026-06-19 09:19:54.677   -- File entry --
+2026-06-19 09:19:54.677   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.dll
+2026-06-19 09:19:54.677   Time stamp of our file: 2026-03-04 02:28:06.000
+2026-06-19 09:19:54.677   Installing the file.
+2026-06-19 09:19:54.748   Successfully installed the file.
+2026-06-19 09:19:54.748   -- File entry --
+2026-06-19 09:19:54.748   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.Encoding.dll
+2026-06-19 09:19:54.748   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:54.748   Installing the file.
+2026-06-19 09:19:54.751   Successfully installed the file.
+2026-06-19 09:19:54.751   -- File entry --
+2026-06-19 09:19:54.751   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.OpenSsl.dll
+2026-06-19 09:19:54.751   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:54.751   Installing the file.
+2026-06-19 09:19:54.754   Successfully installed the file.
+2026-06-19 09:19:54.754   -- File entry --
+2026-06-19 09:19:54.754   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.Pkcs.dll
+2026-06-19 09:19:54.754   Time stamp of our file: 2026-03-04 03:15:52.000
+2026-06-19 09:19:54.754   Installing the file.
+2026-06-19 09:19:54.783   Successfully installed the file.
+2026-06-19 09:19:54.783   -- File entry --
+2026-06-19 09:19:54.783   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.Primitives.dll
+2026-06-19 09:19:54.784   Time stamp of our file: 2026-03-04 02:13:46.000
+2026-06-19 09:19:54.784   Installing the file.
+2026-06-19 09:19:54.785   Successfully installed the file.
+2026-06-19 09:19:54.785   -- File entry --
+2026-06-19 09:19:54.786   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.ProtectedData.dll
+2026-06-19 09:19:54.786   Time stamp of our file: 2026-03-04 03:15:52.000
+2026-06-19 09:19:54.786   Installing the file.
+2026-06-19 09:19:54.788   Successfully installed the file.
+2026-06-19 09:19:54.788   -- File entry --
+2026-06-19 09:19:54.788   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.X509Certificates.dll
+2026-06-19 09:19:54.788   Time stamp of our file: 2026-03-04 02:13:46.000
+2026-06-19 09:19:54.788   Installing the file.
+2026-06-19 09:19:54.789   Successfully installed the file.
+2026-06-19 09:19:54.790   -- File entry --
+2026-06-19 09:19:54.790   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Cryptography.Xml.dll
+2026-06-19 09:19:54.790   Time stamp of our file: 2026-03-04 03:15:54.000
+2026-06-19 09:19:54.790   Installing the file.
+2026-06-19 09:19:54.805   Successfully installed the file.
+2026-06-19 09:19:54.805   -- File entry --
+2026-06-19 09:19:54.805   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.dll
+2026-06-19 09:19:54.805   Time stamp of our file: 2026-03-04 02:13:50.000
+2026-06-19 09:19:54.805   Installing the file.
+2026-06-19 09:19:54.806   Successfully installed the file.
+2026-06-19 09:19:54.807   -- File entry --
+2026-06-19 09:19:54.807   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Permissions.dll
+2026-06-19 09:19:54.807   Time stamp of our file: 2026-03-04 03:15:54.000
+2026-06-19 09:19:54.807   Installing the file.
+2026-06-19 09:19:54.814   Successfully installed the file.
+2026-06-19 09:19:54.814   -- File entry --
+2026-06-19 09:19:54.814   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Principal.dll
+2026-06-19 09:19:54.814   Time stamp of our file: 2026-03-04 02:13:28.000
+2026-06-19 09:19:54.814   Installing the file.
+2026-06-19 09:19:54.815   Successfully installed the file.
+2026-06-19 09:19:54.815   -- File entry --
+2026-06-19 09:19:54.815   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.Principal.Windows.dll
+2026-06-19 09:19:54.816   Time stamp of our file: 2026-03-04 02:28:08.000
+2026-06-19 09:19:54.816   Installing the file.
+2026-06-19 09:19:54.821   Successfully installed the file.
+2026-06-19 09:19:54.821   -- File entry --
+2026-06-19 09:19:54.821   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Security.SecureString.dll
+2026-06-19 09:19:54.821   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:54.821   Installing the file.
+2026-06-19 09:19:54.821   Successfully installed the file.
+2026-06-19 09:19:54.821   -- File entry --
+2026-06-19 09:19:54.821   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ServiceModel.Web.dll
+2026-06-19 09:19:54.821   Time stamp of our file: 2026-03-04 02:14:18.000
+2026-06-19 09:19:54.821   Installing the file.
+2026-06-19 09:19:54.821   Successfully installed the file.
+2026-06-19 09:19:54.821   -- File entry --
+2026-06-19 09:19:54.821   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ServiceProcess.dll
+2026-06-19 09:19:54.821   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:54.821   Installing the file.
+2026-06-19 09:19:54.825   Successfully installed the file.
+2026-06-19 09:19:54.825   -- File entry --
+2026-06-19 09:19:54.825   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Text.Encoding.CodePages.dll
+2026-06-19 09:19:54.825   Time stamp of our file: 2026-03-04 02:28:08.000
+2026-06-19 09:19:54.825   Installing the file.
+2026-06-19 09:19:54.846   Successfully installed the file.
+2026-06-19 09:19:54.846   -- File entry --
+2026-06-19 09:19:54.846   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Text.Encoding.dll
+2026-06-19 09:19:54.846   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:54.846   Installing the file.
+2026-06-19 09:19:54.848   Successfully installed the file.
+2026-06-19 09:19:54.848   -- File entry --
+2026-06-19 09:19:54.848   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Text.Encoding.Extensions.dll
+2026-06-19 09:19:54.848   Time stamp of our file: 2026-03-04 02:09:38.000
+2026-06-19 09:19:54.848   Installing the file.
+2026-06-19 09:19:54.848   Successfully installed the file.
+2026-06-19 09:19:54.848   -- File entry --
+2026-06-19 09:19:54.848   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Text.Encodings.Web.dll
+2026-06-19 09:19:54.848   Time stamp of our file: 2026-03-04 02:28:08.000
+2026-06-19 09:19:54.848   Installing the file.
+2026-06-19 09:19:54.852   Successfully installed the file.
+2026-06-19 09:19:54.852   -- File entry --
+2026-06-19 09:19:54.852   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Text.Json.dll
+2026-06-19 09:19:54.854   Time stamp of our file: 2026-03-04 02:28:08.000
+2026-06-19 09:19:54.854   Installing the file.
+2026-06-19 09:19:54.905   Successfully installed the file.
+2026-06-19 09:19:54.905   -- File entry --
+2026-06-19 09:19:54.905   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Text.RegularExpressions.dll
+2026-06-19 09:19:54.905   Time stamp of our file: 2026-03-04 02:28:08.000
+2026-06-19 09:19:54.905   Installing the file.
+2026-06-19 09:19:54.950   Successfully installed the file.
+2026-06-19 09:19:54.950   -- File entry --
+2026-06-19 09:19:54.950   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.AccessControl.dll
+2026-06-19 09:19:54.950   Time stamp of our file: 2026-03-04 02:28:08.000
+2026-06-19 09:19:54.950   Installing the file.
+2026-06-19 09:19:54.954   Successfully installed the file.
+2026-06-19 09:19:54.956   -- File entry --
+2026-06-19 09:19:54.956   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Channels.dll
+2026-06-19 09:19:54.956   Time stamp of our file: 2026-03-04 02:28:10.000
+2026-06-19 09:19:54.956   Installing the file.
+2026-06-19 09:19:54.966   Successfully installed the file.
+2026-06-19 09:19:54.966   -- File entry --
+2026-06-19 09:19:54.966   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.dll
+2026-06-19 09:19:54.971   Time stamp of our file: 2026-03-04 02:28:10.000
+2026-06-19 09:19:54.971   Installing the file.
+2026-06-19 09:19:54.977   Successfully installed the file.
+2026-06-19 09:19:54.977   -- File entry --
+2026-06-19 09:19:54.977   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Overlapped.dll
+2026-06-19 09:19:54.977   Time stamp of our file: 2026-03-04 02:09:48.000
+2026-06-19 09:19:54.977   Installing the file.
+2026-06-19 09:19:54.978   Successfully installed the file.
+2026-06-19 09:19:54.978   -- File entry --
+2026-06-19 09:19:54.978   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Tasks.Dataflow.dll
+2026-06-19 09:19:54.981   Time stamp of our file: 2026-03-04 02:28:10.000
+2026-06-19 09:19:54.981   Installing the file.
+2026-06-19 09:19:54.995   Successfully installed the file.
+2026-06-19 09:19:54.995   -- File entry --
+2026-06-19 09:19:54.995   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Tasks.dll
+2026-06-19 09:19:54.995   Time stamp of our file: 2026-03-04 02:13:34.000
+2026-06-19 09:19:54.995   Installing the file.
+2026-06-19 09:19:54.995   Successfully installed the file.
+2026-06-19 09:19:54.995   -- File entry --
+2026-06-19 09:19:54.995   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Tasks.Extensions.dll
+2026-06-19 09:19:54.995   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:54.995   Installing the file.
+2026-06-19 09:19:54.999   Successfully installed the file.
+2026-06-19 09:19:54.999   -- File entry --
+2026-06-19 09:19:54.999   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Tasks.Parallel.dll
+2026-06-19 09:19:55.000   Time stamp of our file: 2026-03-04 02:28:10.000
+2026-06-19 09:19:55.000   Installing the file.
+2026-06-19 09:19:55.006   Successfully installed the file.
+2026-06-19 09:19:55.006   -- File entry --
+2026-06-19 09:19:55.006   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Thread.dll
+2026-06-19 09:19:55.006   Time stamp of our file: 2026-03-04 02:09:48.000
+2026-06-19 09:19:55.006   Installing the file.
+2026-06-19 09:19:55.006   Successfully installed the file.
+2026-06-19 09:19:55.006   -- File entry --
+2026-06-19 09:19:55.006   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.ThreadPool.dll
+2026-06-19 09:19:55.006   Time stamp of our file: 2026-03-04 02:09:52.000
+2026-06-19 09:19:55.006   Installing the file.
+2026-06-19 09:19:55.010   Successfully installed the file.
+2026-06-19 09:19:55.010   -- File entry --
+2026-06-19 09:19:55.010   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Threading.Timer.dll
+2026-06-19 09:19:55.010   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:55.010   Installing the file.
+2026-06-19 09:19:55.011   Successfully installed the file.
+2026-06-19 09:19:55.011   -- File entry --
+2026-06-19 09:19:55.011   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Transactions.dll
+2026-06-19 09:19:55.012   Time stamp of our file: 2026-03-04 02:13:36.000
+2026-06-19 09:19:55.012   Installing the file.
+2026-06-19 09:19:55.012   Successfully installed the file.
+2026-06-19 09:19:55.012   -- File entry --
+2026-06-19 09:19:55.012   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Transactions.Local.dll
+2026-06-19 09:19:55.012   Time stamp of our file: 2026-03-04 02:28:10.000
+2026-06-19 09:19:55.012   Installing the file.
+2026-06-19 09:19:55.032   Successfully installed the file.
+2026-06-19 09:19:55.032   -- File entry --
+2026-06-19 09:19:55.032   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.ValueTuple.dll
+2026-06-19 09:19:55.032   Time stamp of our file: 2026-03-04 02:13:32.000
+2026-06-19 09:19:55.032   Installing the file.
+2026-06-19 09:19:55.032   Successfully installed the file.
+2026-06-19 09:19:55.032   -- File entry --
+2026-06-19 09:19:55.032   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Web.dll
+2026-06-19 09:19:55.032   Time stamp of our file: 2026-03-04 02:13:46.000
+2026-06-19 09:19:55.032   Installing the file.
+2026-06-19 09:19:55.035   Successfully installed the file.
+2026-06-19 09:19:55.035   -- File entry --
+2026-06-19 09:19:55.035   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Web.HttpUtility.dll
+2026-06-19 09:19:55.035   Time stamp of our file: 2026-03-04 02:28:10.000
+2026-06-19 09:19:55.035   Installing the file.
+2026-06-19 09:19:55.038   Successfully installed the file.
+2026-06-19 09:19:55.038   -- File entry --
+2026-06-19 09:19:55.038   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Windows.Controls.Ribbon.dll
+2026-06-19 09:19:55.038   Time stamp of our file: 2026-03-04 03:16:30.000
+2026-06-19 09:19:55.038   Installing the file.
+2026-06-19 09:19:55.083   Successfully installed the file.
+2026-06-19 09:19:55.083   -- File entry --
+2026-06-19 09:19:55.083   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Windows.dll
+2026-06-19 09:19:55.083   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:55.083   Installing the file.
+2026-06-19 09:19:55.084   Successfully installed the file.
+2026-06-19 09:19:55.084   -- File entry --
+2026-06-19 09:19:55.084   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Windows.Extensions.dll
+2026-06-19 09:19:55.084   Time stamp of our file: 2026-03-04 03:15:56.000
+2026-06-19 09:19:55.084   Installing the file.
+2026-06-19 09:19:55.087   Successfully installed the file.
+2026-06-19 09:19:55.087   -- File entry --
+2026-06-19 09:19:55.087   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Windows.Input.Manipulations.dll
+2026-06-19 09:19:55.087   Time stamp of our file: 2026-03-04 03:16:30.000
+2026-06-19 09:19:55.087   Installing the file.
+2026-06-19 09:19:55.092   Successfully installed the file.
+2026-06-19 09:19:55.092   -- File entry --
+2026-06-19 09:19:55.092   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Windows.Presentation.dll
+2026-06-19 09:19:55.092   Time stamp of our file: 2026-03-04 03:16:30.000
+2026-06-19 09:19:55.092   Installing the file.
+2026-06-19 09:19:55.094   Successfully installed the file.
+2026-06-19 09:19:55.094   -- File entry --
+2026-06-19 09:19:55.094   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Windows.Primitives.dll
+2026-06-19 09:19:55.094   Time stamp of our file: 2026-03-04 03:16:32.000
+2026-06-19 09:19:55.094   Installing the file.
+2026-06-19 09:19:55.102   Successfully installed the file.
+2026-06-19 09:19:55.102   -- File entry --
+2026-06-19 09:19:55.102   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xaml.dll
+2026-06-19 09:19:55.102   Time stamp of our file: 2026-03-04 03:16:32.000
+2026-06-19 09:19:55.102   Installing the file.
+2026-06-19 09:19:55.143   Successfully installed the file.
+2026-06-19 09:19:55.143   -- File entry --
+2026-06-19 09:19:55.143   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.dll
+2026-06-19 09:19:55.143   Time stamp of our file: 2026-03-04 02:13:54.000
+2026-06-19 09:19:55.143   Installing the file.
+2026-06-19 09:19:55.144   Successfully installed the file.
+2026-06-19 09:19:55.144   -- File entry --
+2026-06-19 09:19:55.144   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.Linq.dll
+2026-06-19 09:19:55.144   Time stamp of our file: 2026-03-04 02:13:48.000
+2026-06-19 09:19:55.144   Installing the file.
+2026-06-19 09:19:55.145   Successfully installed the file.
+2026-06-19 09:19:55.145   -- File entry --
+2026-06-19 09:19:55.145   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.ReaderWriter.dll
+2026-06-19 09:19:55.145   Time stamp of our file: 2026-03-04 02:13:18.000
+2026-06-19 09:19:55.145   Installing the file.
+2026-06-19 09:19:55.145   Successfully installed the file.
+2026-06-19 09:19:55.145   -- File entry --
+2026-06-19 09:19:55.145   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.Serialization.dll
+2026-06-19 09:19:55.145   Time stamp of our file: 2026-03-04 02:13:54.000
+2026-06-19 09:19:55.145   Installing the file.
+2026-06-19 09:19:55.148   Successfully installed the file.
+2026-06-19 09:19:55.148   -- File entry --
+2026-06-19 09:19:55.148   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.XDocument.dll
+2026-06-19 09:19:55.148   Time stamp of our file: 2026-03-04 02:13:40.000
+2026-06-19 09:19:55.148   Installing the file.
+2026-06-19 09:19:55.151   Successfully installed the file.
+2026-06-19 09:19:55.151   -- File entry --
+2026-06-19 09:19:55.151   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.XmlDocument.dll
+2026-06-19 09:19:55.151   Time stamp of our file: 2026-03-04 02:13:38.000
+2026-06-19 09:19:55.151   Installing the file.
+2026-06-19 09:19:55.154   Successfully installed the file.
+2026-06-19 09:19:55.154   -- File entry --
+2026-06-19 09:19:55.154   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.XmlSerializer.dll
+2026-06-19 09:19:55.154   Time stamp of our file: 2026-03-04 02:13:52.000
+2026-06-19 09:19:55.154   Installing the file.
+2026-06-19 09:19:55.155   Successfully installed the file.
+2026-06-19 09:19:55.155   -- File entry --
+2026-06-19 09:19:55.155   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.XPath.dll
+2026-06-19 09:19:55.155   Time stamp of our file: 2026-03-04 02:13:42.000
+2026-06-19 09:19:55.155   Installing the file.
+2026-06-19 09:19:55.157   Successfully installed the file.
+2026-06-19 09:19:55.157   -- File entry --
+2026-06-19 09:19:55.157   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\System.Xml.XPath.XDocument.dll
+2026-06-19 09:19:55.157   Time stamp of our file: 2026-03-04 02:28:10.000
+2026-06-19 09:19:55.157   Installing the file.
+2026-06-19 09:19:55.159   Successfully installed the file.
+2026-06-19 09:19:55.159   -- File entry --
+2026-06-19 09:19:55.159   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\UIAutomationClient.dll
+2026-06-19 09:19:55.159   Time stamp of our file: 2026-03-04 03:16:32.000
+2026-06-19 09:19:55.159   Installing the file.
+2026-06-19 09:19:55.171   Successfully installed the file.
+2026-06-19 09:19:55.171   -- File entry --
+2026-06-19 09:19:55.171   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\UIAutomationClientSideProviders.dll
+2026-06-19 09:19:55.171   Time stamp of our file: 2026-03-04 03:16:32.000
+2026-06-19 09:19:55.171   Installing the file.
+2026-06-19 09:19:55.194   Successfully installed the file.
+2026-06-19 09:19:55.194   -- File entry --
+2026-06-19 09:19:55.194   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\UIAutomationProvider.dll
+2026-06-19 09:19:55.195   Time stamp of our file: 2026-03-04 03:16:32.000
+2026-06-19 09:19:55.195   Installing the file.
+2026-06-19 09:19:55.196   Successfully installed the file.
+2026-06-19 09:19:55.196   -- File entry --
+2026-06-19 09:19:55.196   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\UIAutomationTypes.dll
+2026-06-19 09:19:55.196   Time stamp of our file: 2026-03-04 03:16:34.000
+2026-06-19 09:19:55.196   Installing the file.
+2026-06-19 09:19:55.204   Successfully installed the file.
+2026-06-19 09:19:55.204   -- File entry --
+2026-06-19 09:19:55.204   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\vcruntime140_cor3.dll
+2026-06-19 09:19:55.204   Time stamp of our file: 2026-01-17 01:51:10.000
+2026-06-19 09:19:55.204   Installing the file.
+2026-06-19 09:19:55.207   Successfully installed the file.
+2026-06-19 09:19:55.207   -- File entry --
+2026-06-19 09:19:55.207   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\WindowsBase.dll
+2026-06-19 09:19:55.209   Time stamp of our file: 2026-03-04 03:16:34.000
+2026-06-19 09:19:55.209   Installing the file.
+2026-06-19 09:19:55.278   Successfully installed the file.
+2026-06-19 09:19:55.278   -- File entry --
+2026-06-19 09:19:55.278   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\WinRT.Runtime.dll
+2026-06-19 09:19:55.278   Time stamp of our file: 2024-11-12 00:23:04.000
+2026-06-19 09:19:55.278   Installing the file.
+2026-06-19 09:19:55.290   Successfully installed the file.
+2026-06-19 09:19:55.290   -- File entry --
+2026-06-19 09:19:55.290   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\wpfgfx_cor3.dll
+2026-06-19 09:19:55.290   Time stamp of our file: 2026-03-04 03:06:00.000
+2026-06-19 09:19:55.290   Installing the file.
+2026-06-19 09:19:55.362   Successfully installed the file.
+2026-06-19 09:19:55.362   -- File entry --
+2026-06-19 09:19:55.362   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\PresentationCore.resources.dll
+2026-06-19 09:19:55.362   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.362   Installing the file.
+2026-06-19 09:19:55.362   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs
+2026-06-19 09:19:55.371   Successfully installed the file.
+2026-06-19 09:19:55.371   -- File entry --
+2026-06-19 09:19:55.371   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\PresentationFramework.resources.dll
+2026-06-19 09:19:55.371   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.371   Installing the file.
+2026-06-19 09:19:55.379   Successfully installed the file.
+2026-06-19 09:19:55.379   -- File entry --
+2026-06-19 09:19:55.379   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\PresentationUI.resources.dll
+2026-06-19 09:19:55.379   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.379   Installing the file.
+2026-06-19 09:19:55.382   Successfully installed the file.
+2026-06-19 09:19:55.382   -- File entry --
+2026-06-19 09:19:55.382   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\ReachFramework.resources.dll
+2026-06-19 09:19:55.383   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.383   Installing the file.
+2026-06-19 09:19:55.384   Successfully installed the file.
+2026-06-19 09:19:55.384   -- File entry --
+2026-06-19 09:19:55.384   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.385   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.385   Installing the file.
+2026-06-19 09:19:55.386   Successfully installed the file.
+2026-06-19 09:19:55.386   -- File entry --
+2026-06-19 09:19:55.386   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.386   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.386   Installing the file.
+2026-06-19 09:19:55.387   Successfully installed the file.
+2026-06-19 09:19:55.387   -- File entry --
+2026-06-19 09:19:55.387   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\System.Xaml.resources.dll
+2026-06-19 09:19:55.387   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.387   Installing the file.
+2026-06-19 09:19:55.387   Successfully installed the file.
+2026-06-19 09:19:55.387   -- File entry --
+2026-06-19 09:19:55.387   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.387   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.387   Installing the file.
+2026-06-19 09:19:55.387   Successfully installed the file.
+2026-06-19 09:19:55.387   -- File entry --
+2026-06-19 09:19:55.387   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.387   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.387   Installing the file.
+2026-06-19 09:19:55.391   Successfully installed the file.
+2026-06-19 09:19:55.391   -- File entry --
+2026-06-19 09:19:55.391   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.391   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.391   Installing the file.
+2026-06-19 09:19:55.391   Successfully installed the file.
+2026-06-19 09:19:55.391   -- File entry --
+2026-06-19 09:19:55.391   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.391   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.391   Installing the file.
+2026-06-19 09:19:55.393   Successfully installed the file.
+2026-06-19 09:19:55.393   -- File entry --
+2026-06-19 09:19:55.393   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\cs\WindowsBase.resources.dll
+2026-06-19 09:19:55.393   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.393   Installing the file.
+2026-06-19 09:19:55.395   Successfully installed the file.
+2026-06-19 09:19:55.395   -- File entry --
+2026-06-19 09:19:55.395   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\PresentationCore.resources.dll
+2026-06-19 09:19:55.395   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.395   Installing the file.
+2026-06-19 09:19:55.395   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de
+2026-06-19 09:19:55.400   Successfully installed the file.
+2026-06-19 09:19:55.400   -- File entry --
+2026-06-19 09:19:55.400   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\PresentationFramework.resources.dll
+2026-06-19 09:19:55.401   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.401   Installing the file.
+2026-06-19 09:19:55.404   Successfully installed the file.
+2026-06-19 09:19:55.404   -- File entry --
+2026-06-19 09:19:55.404   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\PresentationUI.resources.dll
+2026-06-19 09:19:55.404   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.404   Installing the file.
+2026-06-19 09:19:55.407   Successfully installed the file.
+2026-06-19 09:19:55.407   -- File entry --
+2026-06-19 09:19:55.407   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\ReachFramework.resources.dll
+2026-06-19 09:19:55.407   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.407   Installing the file.
+2026-06-19 09:19:55.407   Successfully installed the file.
+2026-06-19 09:19:55.407   -- File entry --
+2026-06-19 09:19:55.407   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.407   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.407   Installing the file.
+2026-06-19 09:19:55.407   Successfully installed the file.
+2026-06-19 09:19:55.407   -- File entry --
+2026-06-19 09:19:55.407   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.407   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.407   Installing the file.
+2026-06-19 09:19:55.410   Successfully installed the file.
+2026-06-19 09:19:55.410   -- File entry --
+2026-06-19 09:19:55.410   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\System.Xaml.resources.dll
+2026-06-19 09:19:55.411   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.411   Installing the file.
+2026-06-19 09:19:55.412   Successfully installed the file.
+2026-06-19 09:19:55.412   -- File entry --
+2026-06-19 09:19:55.412   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.412   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.412   Installing the file.
+2026-06-19 09:19:55.412   Successfully installed the file.
+2026-06-19 09:19:55.412   -- File entry --
+2026-06-19 09:19:55.412   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.412   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.412   Installing the file.
+2026-06-19 09:19:55.414   Successfully installed the file.
+2026-06-19 09:19:55.414   -- File entry --
+2026-06-19 09:19:55.414   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.414   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.414   Installing the file.
+2026-06-19 09:19:55.416   Successfully installed the file.
+2026-06-19 09:19:55.416   -- File entry --
+2026-06-19 09:19:55.416   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.416   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.416   Installing the file.
+2026-06-19 09:19:55.418   Successfully installed the file.
+2026-06-19 09:19:55.418   -- File entry --
+2026-06-19 09:19:55.418   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\de\WindowsBase.resources.dll
+2026-06-19 09:19:55.418   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.418   Installing the file.
+2026-06-19 09:19:55.421   Successfully installed the file.
+2026-06-19 09:19:55.421   -- File entry --
+2026-06-19 09:19:55.421   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\PresentationCore.resources.dll
+2026-06-19 09:19:55.421   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.421   Installing the file.
+2026-06-19 09:19:55.421   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es
+2026-06-19 09:19:55.421   Successfully installed the file.
+2026-06-19 09:19:55.421   -- File entry --
+2026-06-19 09:19:55.421   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\PresentationFramework.resources.dll
+2026-06-19 09:19:55.421   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.421   Installing the file.
+2026-06-19 09:19:55.429   Successfully installed the file.
+2026-06-19 09:19:55.429   -- File entry --
+2026-06-19 09:19:55.429   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\PresentationUI.resources.dll
+2026-06-19 09:19:55.429   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.429   Installing the file.
+2026-06-19 09:19:55.431   Successfully installed the file.
+2026-06-19 09:19:55.431   -- File entry --
+2026-06-19 09:19:55.431   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\ReachFramework.resources.dll
+2026-06-19 09:19:55.431   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.431   Installing the file.
+2026-06-19 09:19:55.432   Successfully installed the file.
+2026-06-19 09:19:55.432   -- File entry --
+2026-06-19 09:19:55.432   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.432   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.432   Installing the file.
+2026-06-19 09:19:55.434   Successfully installed the file.
+2026-06-19 09:19:55.434   -- File entry --
+2026-06-19 09:19:55.434   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.434   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.434   Installing the file.
+2026-06-19 09:19:55.434   Successfully installed the file.
+2026-06-19 09:19:55.434   -- File entry --
+2026-06-19 09:19:55.434   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\System.Xaml.resources.dll
+2026-06-19 09:19:55.434   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.434   Installing the file.
+2026-06-19 09:19:55.436   Successfully installed the file.
+2026-06-19 09:19:55.436   -- File entry --
+2026-06-19 09:19:55.436   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.436   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.436   Installing the file.
+2026-06-19 09:19:55.437   Successfully installed the file.
+2026-06-19 09:19:55.437   -- File entry --
+2026-06-19 09:19:55.437   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.437   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.437   Installing the file.
+2026-06-19 09:19:55.437   Successfully installed the file.
+2026-06-19 09:19:55.437   -- File entry --
+2026-06-19 09:19:55.437   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.437   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.437   Installing the file.
+2026-06-19 09:19:55.440   Successfully installed the file.
+2026-06-19 09:19:55.440   -- File entry --
+2026-06-19 09:19:55.440   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.440   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.440   Installing the file.
+2026-06-19 09:19:55.440   Successfully installed the file.
+2026-06-19 09:19:55.440   -- File entry --
+2026-06-19 09:19:55.440   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\es\WindowsBase.resources.dll
+2026-06-19 09:19:55.440   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.440   Installing the file.
+2026-06-19 09:19:55.443   Successfully installed the file.
+2026-06-19 09:19:55.443   -- File entry --
+2026-06-19 09:19:55.443   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\PresentationCore.resources.dll
+2026-06-19 09:19:55.443   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.443   Installing the file.
+2026-06-19 09:19:55.443   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr
+2026-06-19 09:19:55.445   Successfully installed the file.
+2026-06-19 09:19:55.445   -- File entry --
+2026-06-19 09:19:55.445   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\PresentationFramework.resources.dll
+2026-06-19 09:19:55.445   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.445   Installing the file.
+2026-06-19 09:19:55.449   Successfully installed the file.
+2026-06-19 09:19:55.449   -- File entry --
+2026-06-19 09:19:55.449   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\PresentationUI.resources.dll
+2026-06-19 09:19:55.449   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.449   Installing the file.
+2026-06-19 09:19:55.450   Successfully installed the file.
+2026-06-19 09:19:55.450   -- File entry --
+2026-06-19 09:19:55.450   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\ReachFramework.resources.dll
+2026-06-19 09:19:55.450   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.450   Installing the file.
+2026-06-19 09:19:55.452   Successfully installed the file.
+2026-06-19 09:19:55.452   -- File entry --
+2026-06-19 09:19:55.452   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.452   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.452   Installing the file.
+2026-06-19 09:19:55.452   Successfully installed the file.
+2026-06-19 09:19:55.452   -- File entry --
+2026-06-19 09:19:55.452   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.452   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.452   Installing the file.
+2026-06-19 09:19:55.454   Successfully installed the file.
+2026-06-19 09:19:55.454   -- File entry --
+2026-06-19 09:19:55.454   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\System.Xaml.resources.dll
+2026-06-19 09:19:55.454   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.454   Installing the file.
+2026-06-19 09:19:55.455   Successfully installed the file.
+2026-06-19 09:19:55.455   -- File entry --
+2026-06-19 09:19:55.455   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.455   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.455   Installing the file.
+2026-06-19 09:19:55.457   Successfully installed the file.
+2026-06-19 09:19:55.457   -- File entry --
+2026-06-19 09:19:55.457   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.457   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.457   Installing the file.
+2026-06-19 09:19:55.457   Successfully installed the file.
+2026-06-19 09:19:55.457   -- File entry --
+2026-06-19 09:19:55.457   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.457   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.461   Installing the file.
+2026-06-19 09:19:55.461   Successfully installed the file.
+2026-06-19 09:19:55.461   -- File entry --
+2026-06-19 09:19:55.461   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.461   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.461   Installing the file.
+2026-06-19 09:19:55.462   Successfully installed the file.
+2026-06-19 09:19:55.462   -- File entry --
+2026-06-19 09:19:55.462   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\fr\WindowsBase.resources.dll
+2026-06-19 09:19:55.462   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.462   Installing the file.
+2026-06-19 09:19:55.464   Successfully installed the file.
+2026-06-19 09:19:55.464   -- File entry --
+2026-06-19 09:19:55.464   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\PresentationCore.resources.dll
+2026-06-19 09:19:55.464   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.464   Installing the file.
+2026-06-19 09:19:55.464   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it
+2026-06-19 09:19:55.467   Successfully installed the file.
+2026-06-19 09:19:55.467   -- File entry --
+2026-06-19 09:19:55.467   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\PresentationFramework.resources.dll
+2026-06-19 09:19:55.467   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.467   Installing the file.
+2026-06-19 09:19:55.467   Successfully installed the file.
+2026-06-19 09:19:55.467   -- File entry --
+2026-06-19 09:19:55.467   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\PresentationUI.resources.dll
+2026-06-19 09:19:55.467   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.467   Installing the file.
+2026-06-19 09:19:55.472   Successfully installed the file.
+2026-06-19 09:19:55.472   -- File entry --
+2026-06-19 09:19:55.472   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\ReachFramework.resources.dll
+2026-06-19 09:19:55.472   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.472   Installing the file.
+2026-06-19 09:19:55.472   Successfully installed the file.
+2026-06-19 09:19:55.472   -- File entry --
+2026-06-19 09:19:55.472   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.472   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.472   Installing the file.
+2026-06-19 09:19:55.472   Successfully installed the file.
+2026-06-19 09:19:55.472   -- File entry --
+2026-06-19 09:19:55.472   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.472   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.472   Installing the file.
+2026-06-19 09:19:55.472   Successfully installed the file.
+2026-06-19 09:19:55.472   -- File entry --
+2026-06-19 09:19:55.472   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\System.Xaml.resources.dll
+2026-06-19 09:19:55.472   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.472   Installing the file.
+2026-06-19 09:19:55.477   Successfully installed the file.
+2026-06-19 09:19:55.477   -- File entry --
+2026-06-19 09:19:55.477   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.477   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.477   Installing the file.
+2026-06-19 09:19:55.479   Successfully installed the file.
+2026-06-19 09:19:55.479   -- File entry --
+2026-06-19 09:19:55.479   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.479   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.479   Installing the file.
+2026-06-19 09:19:55.481   Successfully installed the file.
+2026-06-19 09:19:55.481   -- File entry --
+2026-06-19 09:19:55.481   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.481   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.481   Installing the file.
+2026-06-19 09:19:55.481   Successfully installed the file.
+2026-06-19 09:19:55.481   -- File entry --
+2026-06-19 09:19:55.481   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.481   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.481   Installing the file.
+2026-06-19 09:19:55.482   Successfully installed the file.
+2026-06-19 09:19:55.482   -- File entry --
+2026-06-19 09:19:55.482   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\it\WindowsBase.resources.dll
+2026-06-19 09:19:55.482   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.482   Installing the file.
+2026-06-19 09:19:55.485   Successfully installed the file.
+2026-06-19 09:19:55.485   -- File entry --
+2026-06-19 09:19:55.485   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\PresentationCore.resources.dll
+2026-06-19 09:19:55.485   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.485   Installing the file.
+2026-06-19 09:19:55.485   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja
+2026-06-19 09:19:55.487   Successfully installed the file.
+2026-06-19 09:19:55.487   -- File entry --
+2026-06-19 09:19:55.487   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\PresentationFramework.resources.dll
+2026-06-19 09:19:55.487   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.487   Installing the file.
+2026-06-19 09:19:55.496   Successfully installed the file.
+2026-06-19 09:19:55.496   -- File entry --
+2026-06-19 09:19:55.496   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\PresentationUI.resources.dll
+2026-06-19 09:19:55.496   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.496   Installing the file.
+2026-06-19 09:19:55.497   Successfully installed the file.
+2026-06-19 09:19:55.497   -- File entry --
+2026-06-19 09:19:55.497   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\ReachFramework.resources.dll
+2026-06-19 09:19:55.497   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.497   Installing the file.
+2026-06-19 09:19:55.497   Successfully installed the file.
+2026-06-19 09:19:55.497   -- File entry --
+2026-06-19 09:19:55.497   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.497   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.497   Installing the file.
+2026-06-19 09:19:55.500   Successfully installed the file.
+2026-06-19 09:19:55.500   -- File entry --
+2026-06-19 09:19:55.500   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.500   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.500   Installing the file.
+2026-06-19 09:19:55.501   Successfully installed the file.
+2026-06-19 09:19:55.501   -- File entry --
+2026-06-19 09:19:55.501   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\System.Xaml.resources.dll
+2026-06-19 09:19:55.501   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.501   Installing the file.
+2026-06-19 09:19:55.503   Successfully installed the file.
+2026-06-19 09:19:55.503   -- File entry --
+2026-06-19 09:19:55.503   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.503   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.503   Installing the file.
+2026-06-19 09:19:55.504   Successfully installed the file.
+2026-06-19 09:19:55.504   -- File entry --
+2026-06-19 09:19:55.504   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.504   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.504   Installing the file.
+2026-06-19 09:19:55.504   Successfully installed the file.
+2026-06-19 09:19:55.505   -- File entry --
+2026-06-19 09:19:55.505   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.505   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.505   Installing the file.
+2026-06-19 09:19:55.505   Successfully installed the file.
+2026-06-19 09:19:55.505   -- File entry --
+2026-06-19 09:19:55.505   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.507   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.507   Installing the file.
+2026-06-19 09:19:55.507   Successfully installed the file.
+2026-06-19 09:19:55.507   -- File entry --
+2026-06-19 09:19:55.507   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ja\WindowsBase.resources.dll
+2026-06-19 09:19:55.507   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.507   Installing the file.
+2026-06-19 09:19:55.507   Successfully installed the file.
+2026-06-19 09:19:55.507   -- File entry --
+2026-06-19 09:19:55.507   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\PresentationCore.resources.dll
+2026-06-19 09:19:55.507   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.507   Installing the file.
+2026-06-19 09:19:55.507   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko
+2026-06-19 09:19:55.510   Successfully installed the file.
+2026-06-19 09:19:55.510   -- File entry --
+2026-06-19 09:19:55.510   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\PresentationFramework.resources.dll
+2026-06-19 09:19:55.512   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.512   Installing the file.
+2026-06-19 09:19:55.515   Successfully installed the file.
+2026-06-19 09:19:55.516   -- File entry --
+2026-06-19 09:19:55.516   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\PresentationUI.resources.dll
+2026-06-19 09:19:55.516   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.516   Installing the file.
+2026-06-19 09:19:55.516   Successfully installed the file.
+2026-06-19 09:19:55.516   -- File entry --
+2026-06-19 09:19:55.516   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\ReachFramework.resources.dll
+2026-06-19 09:19:55.516   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.516   Installing the file.
+2026-06-19 09:19:55.516   Successfully installed the file.
+2026-06-19 09:19:55.516   -- File entry --
+2026-06-19 09:19:55.516   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.516   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.516   Installing the file.
+2026-06-19 09:19:55.516   Successfully installed the file.
+2026-06-19 09:19:55.516   -- File entry --
+2026-06-19 09:19:55.516   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.516   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.516   Installing the file.
+2026-06-19 09:19:55.516   Successfully installed the file.
+2026-06-19 09:19:55.516   -- File entry --
+2026-06-19 09:19:55.516   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\System.Xaml.resources.dll
+2026-06-19 09:19:55.516   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.516   Installing the file.
+2026-06-19 09:19:55.521   Successfully installed the file.
+2026-06-19 09:19:55.521   -- File entry --
+2026-06-19 09:19:55.521   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.521   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.521   Installing the file.
+2026-06-19 09:19:55.521   Successfully installed the file.
+2026-06-19 09:19:55.521   -- File entry --
+2026-06-19 09:19:55.521   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.521   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.521   Installing the file.
+2026-06-19 09:19:55.521   Successfully installed the file.
+2026-06-19 09:19:55.521   -- File entry --
+2026-06-19 09:19:55.521   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.521   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.521   Installing the file.
+2026-06-19 09:19:55.521   Successfully installed the file.
+2026-06-19 09:19:55.521   -- File entry --
+2026-06-19 09:19:55.521   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.521   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.521   Installing the file.
+2026-06-19 09:19:55.521   Successfully installed the file.
+2026-06-19 09:19:55.521   -- File entry --
+2026-06-19 09:19:55.521   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ko\WindowsBase.resources.dll
+2026-06-19 09:19:55.521   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.521   Installing the file.
+2026-06-19 09:19:55.527   Successfully installed the file.
+2026-06-19 09:19:55.527   -- File entry --
+2026-06-19 09:19:55.527   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\PresentationCore.resources.dll
+2026-06-19 09:19:55.528   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.528   Installing the file.
+2026-06-19 09:19:55.528   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl
+2026-06-19 09:19:55.531   Successfully installed the file.
+2026-06-19 09:19:55.531   -- File entry --
+2026-06-19 09:19:55.531   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\PresentationFramework.resources.dll
+2026-06-19 09:19:55.531   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.531   Installing the file.
+2026-06-19 09:19:55.534   Successfully installed the file.
+2026-06-19 09:19:55.534   -- File entry --
+2026-06-19 09:19:55.534   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\PresentationUI.resources.dll
+2026-06-19 09:19:55.534   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.534   Installing the file.
+2026-06-19 09:19:55.536   Successfully installed the file.
+2026-06-19 09:19:55.536   -- File entry --
+2026-06-19 09:19:55.536   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\ReachFramework.resources.dll
+2026-06-19 09:19:55.536   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.536   Installing the file.
+2026-06-19 09:19:55.537   Successfully installed the file.
+2026-06-19 09:19:55.537   -- File entry --
+2026-06-19 09:19:55.537   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.537   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.537   Installing the file.
+2026-06-19 09:19:55.538   Successfully installed the file.
+2026-06-19 09:19:55.538   -- File entry --
+2026-06-19 09:19:55.538   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.538   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.538   Installing the file.
+2026-06-19 09:19:55.538   Successfully installed the file.
+2026-06-19 09:19:55.538   -- File entry --
+2026-06-19 09:19:55.538   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\System.Xaml.resources.dll
+2026-06-19 09:19:55.538   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.538   Installing the file.
+2026-06-19 09:19:55.542   Successfully installed the file.
+2026-06-19 09:19:55.542   -- File entry --
+2026-06-19 09:19:55.542   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.542   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.542   Installing the file.
+2026-06-19 09:19:55.542   Successfully installed the file.
+2026-06-19 09:19:55.542   -- File entry --
+2026-06-19 09:19:55.542   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.542   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.542   Installing the file.
+2026-06-19 09:19:55.544   Successfully installed the file.
+2026-06-19 09:19:55.544   -- File entry --
+2026-06-19 09:19:55.544   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.544   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.544   Installing the file.
+2026-06-19 09:19:55.544   Successfully installed the file.
+2026-06-19 09:19:55.544   -- File entry --
+2026-06-19 09:19:55.544   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.544   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.544   Installing the file.
+2026-06-19 09:19:55.545   Successfully installed the file.
+2026-06-19 09:19:55.545   -- File entry --
+2026-06-19 09:19:55.545   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pl\WindowsBase.resources.dll
+2026-06-19 09:19:55.545   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.545   Installing the file.
+2026-06-19 09:19:55.545   Successfully installed the file.
+2026-06-19 09:19:55.545   -- File entry --
+2026-06-19 09:19:55.545   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\PresentationCore.resources.dll
+2026-06-19 09:19:55.545   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.545   Installing the file.
+2026-06-19 09:19:55.545   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR
+2026-06-19 09:19:55.550   Successfully installed the file.
+2026-06-19 09:19:55.550   -- File entry --
+2026-06-19 09:19:55.550   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\PresentationFramework.resources.dll
+2026-06-19 09:19:55.550   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.550   Installing the file.
+2026-06-19 09:19:55.554   Successfully installed the file.
+2026-06-19 09:19:55.554   -- File entry --
+2026-06-19 09:19:55.554   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\PresentationUI.resources.dll
+2026-06-19 09:19:55.554   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.554   Installing the file.
+2026-06-19 09:19:55.555   Successfully installed the file.
+2026-06-19 09:19:55.555   -- File entry --
+2026-06-19 09:19:55.555   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\ReachFramework.resources.dll
+2026-06-19 09:19:55.555   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.555   Installing the file.
+2026-06-19 09:19:55.556   Successfully installed the file.
+2026-06-19 09:19:55.556   -- File entry --
+2026-06-19 09:19:55.556   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.556   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.556   Installing the file.
+2026-06-19 09:19:55.556   Successfully installed the file.
+2026-06-19 09:19:55.556   -- File entry --
+2026-06-19 09:19:55.556   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.556   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.556   Installing the file.
+2026-06-19 09:19:55.556   Successfully installed the file.
+2026-06-19 09:19:55.556   -- File entry --
+2026-06-19 09:19:55.556   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\System.Xaml.resources.dll
+2026-06-19 09:19:55.556   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.556   Installing the file.
+2026-06-19 09:19:55.560   Successfully installed the file.
+2026-06-19 09:19:55.560   -- File entry --
+2026-06-19 09:19:55.560   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.560   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.560   Installing the file.
+2026-06-19 09:19:55.561   Successfully installed the file.
+2026-06-19 09:19:55.561   -- File entry --
+2026-06-19 09:19:55.561   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.561   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.561   Installing the file.
+2026-06-19 09:19:55.562   Successfully installed the file.
+2026-06-19 09:19:55.562   -- File entry --
+2026-06-19 09:19:55.562   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.562   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.562   Installing the file.
+2026-06-19 09:19:55.562   Successfully installed the file.
+2026-06-19 09:19:55.562   -- File entry --
+2026-06-19 09:19:55.562   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.562   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.562   Installing the file.
+2026-06-19 09:19:55.564   Successfully installed the file.
+2026-06-19 09:19:55.564   -- File entry --
+2026-06-19 09:19:55.564   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\pt-BR\WindowsBase.resources.dll
+2026-06-19 09:19:55.564   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.564   Installing the file.
+2026-06-19 09:19:55.565   Successfully installed the file.
+2026-06-19 09:19:55.565   -- File entry --
+2026-06-19 09:19:55.565   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\PresentationCore.resources.dll
+2026-06-19 09:19:55.565   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.565   Installing the file.
+2026-06-19 09:19:55.565   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru
+2026-06-19 09:19:55.565   Successfully installed the file.
+2026-06-19 09:19:55.565   -- File entry --
+2026-06-19 09:19:55.565   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\PresentationFramework.resources.dll
+2026-06-19 09:19:55.565   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.565   Installing the file.
+2026-06-19 09:19:55.575   Successfully installed the file.
+2026-06-19 09:19:55.575   -- File entry --
+2026-06-19 09:19:55.576   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\PresentationUI.resources.dll
+2026-06-19 09:19:55.576   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.576   Installing the file.
+2026-06-19 09:19:55.577   Successfully installed the file.
+2026-06-19 09:19:55.577   -- File entry --
+2026-06-19 09:19:55.577   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\ReachFramework.resources.dll
+2026-06-19 09:19:55.577   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.577   Installing the file.
+2026-06-19 09:19:55.578   Successfully installed the file.
+2026-06-19 09:19:55.578   -- File entry --
+2026-06-19 09:19:55.578   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.578   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.578   Installing the file.
+2026-06-19 09:19:55.581   Successfully installed the file.
+2026-06-19 09:19:55.581   -- File entry --
+2026-06-19 09:19:55.581   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.581   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.581   Installing the file.
+2026-06-19 09:19:55.582   Successfully installed the file.
+2026-06-19 09:19:55.582   -- File entry --
+2026-06-19 09:19:55.582   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\System.Xaml.resources.dll
+2026-06-19 09:19:55.582   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.582   Installing the file.
+2026-06-19 09:19:55.584   Successfully installed the file.
+2026-06-19 09:19:55.584   -- File entry --
+2026-06-19 09:19:55.584   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.584   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.584   Installing the file.
+2026-06-19 09:19:55.587   Successfully installed the file.
+2026-06-19 09:19:55.587   -- File entry --
+2026-06-19 09:19:55.587   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.587   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.587   Installing the file.
+2026-06-19 09:19:55.587   Successfully installed the file.
+2026-06-19 09:19:55.587   -- File entry --
+2026-06-19 09:19:55.587   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.587   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.587   Installing the file.
+2026-06-19 09:19:55.587   Successfully installed the file.
+2026-06-19 09:19:55.587   -- File entry --
+2026-06-19 09:19:55.587   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.587   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.587   Installing the file.
+2026-06-19 09:19:55.591   Successfully installed the file.
+2026-06-19 09:19:55.591   -- File entry --
+2026-06-19 09:19:55.591   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\ru\WindowsBase.resources.dll
+2026-06-19 09:19:55.591   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.591   Installing the file.
+2026-06-19 09:19:55.592   Successfully installed the file.
+2026-06-19 09:19:55.592   -- File entry --
+2026-06-19 09:19:55.592   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\PresentationCore.resources.dll
+2026-06-19 09:19:55.594   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.594   Installing the file.
+2026-06-19 09:19:55.594   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr
+2026-06-19 09:19:55.595   Successfully installed the file.
+2026-06-19 09:19:55.595   -- File entry --
+2026-06-19 09:19:55.595   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\PresentationFramework.resources.dll
+2026-06-19 09:19:55.595   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.595   Installing the file.
+2026-06-19 09:19:55.601   Successfully installed the file.
+2026-06-19 09:19:55.601   -- File entry --
+2026-06-19 09:19:55.601   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\PresentationUI.resources.dll
+2026-06-19 09:19:55.602   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.602   Installing the file.
+2026-06-19 09:19:55.604   Successfully installed the file.
+2026-06-19 09:19:55.604   -- File entry --
+2026-06-19 09:19:55.604   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\ReachFramework.resources.dll
+2026-06-19 09:19:55.604   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.604   Installing the file.
+2026-06-19 09:19:55.604   Successfully installed the file.
+2026-06-19 09:19:55.604   -- File entry --
+2026-06-19 09:19:55.604   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.605   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.605   Installing the file.
+2026-06-19 09:19:55.605   Successfully installed the file.
+2026-06-19 09:19:55.605   -- File entry --
+2026-06-19 09:19:55.605   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.605   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.605   Installing the file.
+2026-06-19 09:19:55.607   Successfully installed the file.
+2026-06-19 09:19:55.607   -- File entry --
+2026-06-19 09:19:55.607   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\System.Xaml.resources.dll
+2026-06-19 09:19:55.607   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.607   Installing the file.
+2026-06-19 09:19:55.607   Successfully installed the file.
+2026-06-19 09:19:55.607   -- File entry --
+2026-06-19 09:19:55.607   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.607   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.607   Installing the file.
+2026-06-19 09:19:55.610   Successfully installed the file.
+2026-06-19 09:19:55.610   -- File entry --
+2026-06-19 09:19:55.610   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.610   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.610   Installing the file.
+2026-06-19 09:19:55.610   Successfully installed the file.
+2026-06-19 09:19:55.610   -- File entry --
+2026-06-19 09:19:55.610   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.610   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.610   Installing the file.
+2026-06-19 09:19:55.612   Successfully installed the file.
+2026-06-19 09:19:55.612   -- File entry --
+2026-06-19 09:19:55.612   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.612   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.612   Installing the file.
+2026-06-19 09:19:55.612   Successfully installed the file.
+2026-06-19 09:19:55.612   -- File entry --
+2026-06-19 09:19:55.612   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\tr\WindowsBase.resources.dll
+2026-06-19 09:19:55.612   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.612   Installing the file.
+2026-06-19 09:19:55.614   Successfully installed the file.
+2026-06-19 09:19:55.614   -- File entry --
+2026-06-19 09:19:55.614   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\PresentationCore.resources.dll
+2026-06-19 09:19:55.614   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.614   Installing the file.
+2026-06-19 09:19:55.614   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans
+2026-06-19 09:19:55.616   Successfully installed the file.
+2026-06-19 09:19:55.616   -- File entry --
+2026-06-19 09:19:55.616   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\PresentationFramework.resources.dll
+2026-06-19 09:19:55.616   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.616   Installing the file.
+2026-06-19 09:19:55.616   Successfully installed the file.
+2026-06-19 09:19:55.616   -- File entry --
+2026-06-19 09:19:55.616   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\PresentationUI.resources.dll
+2026-06-19 09:19:55.616   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.616   Installing the file.
+2026-06-19 09:19:55.622   Successfully installed the file.
+2026-06-19 09:19:55.622   -- File entry --
+2026-06-19 09:19:55.622   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\ReachFramework.resources.dll
+2026-06-19 09:19:55.622   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.622   Installing the file.
+2026-06-19 09:19:55.623   Successfully installed the file.
+2026-06-19 09:19:55.623   -- File entry --
+2026-06-19 09:19:55.623   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.623   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.623   Installing the file.
+2026-06-19 09:19:55.623   Successfully installed the file.
+2026-06-19 09:19:55.623   -- File entry --
+2026-06-19 09:19:55.623   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.623   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.623   Installing the file.
+2026-06-19 09:19:55.623   Successfully installed the file.
+2026-06-19 09:19:55.623   -- File entry --
+2026-06-19 09:19:55.623   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\System.Xaml.resources.dll
+2026-06-19 09:19:55.623   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.623   Installing the file.
+2026-06-19 09:19:55.627   Successfully installed the file.
+2026-06-19 09:19:55.627   -- File entry --
+2026-06-19 09:19:55.627   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.627   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.627   Installing the file.
+2026-06-19 09:19:55.628   Successfully installed the file.
+2026-06-19 09:19:55.628   -- File entry --
+2026-06-19 09:19:55.628   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.628   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.628   Installing the file.
+2026-06-19 09:19:55.628   Successfully installed the file.
+2026-06-19 09:19:55.628   -- File entry --
+2026-06-19 09:19:55.628   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.628   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.628   Installing the file.
+2026-06-19 09:19:55.628   Successfully installed the file.
+2026-06-19 09:19:55.628   -- File entry --
+2026-06-19 09:19:55.628   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.631   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.631   Installing the file.
+2026-06-19 09:19:55.631   Successfully installed the file.
+2026-06-19 09:19:55.631   -- File entry --
+2026-06-19 09:19:55.631   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hans\WindowsBase.resources.dll
+2026-06-19 09:19:55.631   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.631   Installing the file.
+2026-06-19 09:19:55.632   Successfully installed the file.
+2026-06-19 09:19:55.632   -- File entry --
+2026-06-19 09:19:55.632   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\PresentationCore.resources.dll
+2026-06-19 09:19:55.632   Time stamp of our file: 2026-03-04 03:06:24.000
+2026-06-19 09:19:55.632   Installing the file.
+2026-06-19 09:19:55.632   Creating directory: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant
+2026-06-19 09:19:55.635   Successfully installed the file.
+2026-06-19 09:19:55.635   -- File entry --
+2026-06-19 09:19:55.635   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\PresentationFramework.resources.dll
+2026-06-19 09:19:55.635   Time stamp of our file: 2026-03-04 03:07:12.000
+2026-06-19 09:19:55.635   Installing the file.
+2026-06-19 09:19:55.639   Successfully installed the file.
+2026-06-19 09:19:55.639   -- File entry --
+2026-06-19 09:19:55.639   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\PresentationUI.resources.dll
+2026-06-19 09:19:55.639   Time stamp of our file: 2026-03-04 03:07:26.000
+2026-06-19 09:19:55.639   Installing the file.
+2026-06-19 09:19:55.639   Successfully installed the file.
+2026-06-19 09:19:55.639   -- File entry --
+2026-06-19 09:19:55.639   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\ReachFramework.resources.dll
+2026-06-19 09:19:55.639   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.639   Installing the file.
+2026-06-19 09:19:55.642   Successfully installed the file.
+2026-06-19 09:19:55.642   -- File entry --
+2026-06-19 09:19:55.642   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\System.Windows.Controls.Ribbon.resources.dll
+2026-06-19 09:19:55.642   Time stamp of our file: 2026-03-04 03:07:44.000
+2026-06-19 09:19:55.642   Installing the file.
+2026-06-19 09:19:55.642   Successfully installed the file.
+2026-06-19 09:19:55.642   -- File entry --
+2026-06-19 09:19:55.642   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\System.Windows.Input.Manipulations.resources.dll
+2026-06-19 09:19:55.644   Time stamp of our file: 2026-03-04 03:04:42.000
+2026-06-19 09:19:55.644   Installing the file.
+2026-06-19 09:19:55.644   Successfully installed the file.
+2026-06-19 09:19:55.644   -- File entry --
+2026-06-19 09:19:55.644   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\System.Xaml.resources.dll
+2026-06-19 09:19:55.644   Time stamp of our file: 2026-03-04 03:04:48.000
+2026-06-19 09:19:55.644   Installing the file.
+2026-06-19 09:19:55.645   Successfully installed the file.
+2026-06-19 09:19:55.645   -- File entry --
+2026-06-19 09:19:55.645   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\UIAutomationClient.resources.dll
+2026-06-19 09:19:55.645   Time stamp of our file: 2026-03-04 03:06:30.000
+2026-06-19 09:19:55.645   Installing the file.
+2026-06-19 09:19:55.647   Successfully installed the file.
+2026-06-19 09:19:55.647   -- File entry --
+2026-06-19 09:19:55.647   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\UIAutomationClientSideProviders.resources.dll
+2026-06-19 09:19:55.647   Time stamp of our file: 2026-03-04 03:06:34.000
+2026-06-19 09:19:55.647   Installing the file.
+2026-06-19 09:19:55.647   Successfully installed the file.
+2026-06-19 09:19:55.647   -- File entry --
+2026-06-19 09:19:55.647   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\UIAutomationProvider.resources.dll
+2026-06-19 09:19:55.647   Time stamp of our file: 2026-03-04 03:05:28.000
+2026-06-19 09:19:55.647   Installing the file.
+2026-06-19 09:19:55.647   Successfully installed the file.
+2026-06-19 09:19:55.647   -- File entry --
+2026-06-19 09:19:55.647   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\UIAutomationTypes.resources.dll
+2026-06-19 09:19:55.647   Time stamp of our file: 2026-03-04 03:05:26.000
+2026-06-19 09:19:55.647   Installing the file.
+2026-06-19 09:19:55.647   Successfully installed the file.
+2026-06-19 09:19:55.647   -- File entry --
+2026-06-19 09:19:55.647   Dest filename: C:\Users\PC\AppData\Local\Programs\Screen Translator Pro\zh-Hant\WindowsBase.resources.dll
+2026-06-19 09:19:55.647   Time stamp of our file: 2026-03-04 03:05:22.000
+2026-06-19 09:19:55.647   Installing the file.
+2026-06-19 09:19:55.651   Successfully installed the file.
+2026-06-19 09:19:55.651   -- Icon entry --
+2026-06-19 09:19:55.651   Dest filename: C:\Users\PC\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Screen Translator Pro\Screen Translator Pro.lnk
+2026-06-19 09:19:55.651   Creating directory: C:\Users\PC\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Screen Translator Pro
+2026-06-19 09:19:55.659   Creating the icon.
+2026-06-19 09:19:55.706   Successfully created the icon.
+2026-06-19 09:19:55.712   -- Icon entry --
+2026-06-19 09:19:55.712   Dest filename: C:\Users\PC\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Screen Translator Pro\Gỡ cài đặt Screen Translator Pro.lnk
+2026-06-19 09:19:55.712   Creating the icon.
+2026-06-19 09:19:55.719   Successfully created the icon.
+2026-06-19 09:19:55.721   -- Icon entry --
+2026-06-19 09:19:55.721   Dest filename: C:\Users\PC\OneDrive\Máy tính\Screen Translator Pro.lnk
+2026-06-19 09:19:55.721   Creating the icon.
+2026-06-19 09:19:55.731   Successfully created the icon.
+2026-06-19 09:19:55.745   Saving uninstall information.
+2026-06-19 09:19:55.745   Creating new uninstall key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}_is1
+2026-06-19 09:19:55.745   Writing uninstall key values.
+2026-06-19 09:19:55.745   Detected previous administrative 64-bit install? No
+2026-06-19 09:19:55.745   Detected previous administrative 32-bit install? No
+2026-06-19 09:19:55.751   Installation process succeeded.
+2026-06-19 09:19:55.751   Need to restart Windows? No
+2026-06-19 09:19:55.754   Deinitializing Setup.
+2026-06-19 09:19:55.766   Log closed.

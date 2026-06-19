@@ -9,6 +9,12 @@ namespace ScreenTranslator.Ocr
     public class OcrService
     {
         private OcrEngine? _ocrEngine;
+        
+        // Fix #6: Biên dịch Regex 1 lần duy nhất thay vì tạo mới mỗi lần OCR
+        private static readonly System.Text.RegularExpressions.Regex _garbageRegex = 
+            new(@"[\|\~\\\/\^_{}\[\]\n\r]+", System.Text.RegularExpressions.RegexOptions.Compiled);
+        private static readonly System.Text.RegularExpressions.Regex _whitespaceRegex = 
+            new(@"\s+", System.Text.RegularExpressions.RegexOptions.Compiled);
 
         public OcrService(string language = "en-US")
         {
@@ -40,16 +46,16 @@ namespace ScreenTranslator.Ocr
                 var rawText = string.Join(" ", ocrResult.Lines.Select(line => line.Text));
                 
                 // Filter out garbage characters that often appear from poor OCR
-                var cleanedText = System.Text.RegularExpressions.Regex.Replace(rawText, @"[\|\~\\\/\^_{}\[\]\n\r]+", " ");
+                var cleanedText = _garbageRegex.Replace(rawText, " ");
                 
                 // Collapse multiple spaces
-                cleanedText = System.Text.RegularExpressions.Regex.Replace(cleanedText, @"\s+", " ").Trim();
+                cleanedText = _whitespaceRegex.Replace(cleanedText, " ").Trim();
                 
                 return cleanedText;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"OCR Error: {ex.Message}");
+                Infrastructure.LogService.Instance.Error("OcrService", $"OCR Error: {ex.Message}");
                 return string.Empty;
             }
         }

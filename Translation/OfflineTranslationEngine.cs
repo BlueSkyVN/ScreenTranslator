@@ -26,6 +26,7 @@ namespace ScreenTranslator.Translation
         private readonly string _vocabPath;
         
         public bool IsInitialized { get; private set; } = false;
+        private readonly Infrastructure.LogService _log = Infrastructure.LogService.Instance;
 
         public OfflineTranslationEngine()
         {
@@ -58,7 +59,7 @@ namespace ScreenTranslator.Translation
             {
                 if (!IsModelAvailable())
                 {
-                    Console.WriteLine("Offline model files are not found. Offline mode is disabled.");
+                    _log.Warning("OfflineEngine", "Offline model files are not found. Offline mode is disabled.");
                     return false;
                 }
 
@@ -89,12 +90,12 @@ namespace ScreenTranslator.Translation
                 _decoderSession = new InferenceSession(actualDecoderPath, options);
 
                 IsInitialized = true;
-                Console.WriteLine("Offline Translation Engine successfully initialized!");
+                _log.Info("OfflineEngine", "Offline Translation Engine successfully initialized!");
                 return true;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Failed to initialize Offline Engine: {ex.Message}");
+                _log.Error("OfflineEngine", $"Failed to initialize Offline Engine: {ex.Message}");
                 return false;
             }
         }
@@ -153,11 +154,13 @@ namespace ScreenTranslator.Translation
 
                     // 4. Bắt đầu vòng lặp Decoder để sinh chữ từng từ một (Greedy Decoding Loop)
                     var decodedTokens = new List<int>();
+                    var decodedTokenSet = new HashSet<int>(); // Fix #11: O(1) lookup thay vì List.Contains O(n)
                     int maxGenerateLength = 50; // Giới hạn độ dài tối đa cho phụ đề/OCR
                     
                     // Token bắt đầu giải mã (Helsinki-NLP sử dụng token rỗng hoặc </s> đầu tiên)
                     int currentDecoderToken = GetTokenId("</s>", 2); 
                     decodedTokens.Add(currentDecoderToken);
+                    decodedTokenSet.Add(currentDecoderToken);
 
                     int consecutiveDuplicateCount = 0;
                     int lastTokenId = -1;
@@ -194,7 +197,7 @@ namespace ScreenTranslator.Translation
                         for (int v = 0; v < vocabSize; v++)
                         {
                             float logit = logitsTensor[0, lastTokenIndex, v];
-                            if (decodedTokens.Contains(v))
+                            if (decodedTokenSet.Contains(v))
                             {
                                 logit = logit > 0 ? logit / repetitionPenalty : logit * repetitionPenalty;
                             }
@@ -236,6 +239,7 @@ namespace ScreenTranslator.Translation
                         lastTokenId = nextTokenId;
 
                         decodedTokens.Add(nextTokenId);
+                        decodedTokenSet.Add(nextTokenId);
                     }
 
                     // 5. Giải mã dãy Token IDs thành chuỗi tiếng Việt (Detokenization)

@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using ScreenTranslator.Infrastructure;
 
 namespace ScreenTranslator.Translation
 {
@@ -10,12 +11,14 @@ namespace ScreenTranslator.Translation
     {
         private readonly HttpClient _client;
         private readonly OfflineTranslationEngine _offlineEngine;
+        private readonly LogService _log = LogService.Instance;
         
         public bool IsFallbackActive { get; set; } = false;
 
         public TranslationService()
         {
             _client = new HttpClient();
+            _client.Timeout = TimeSpan.FromSeconds(10); // Fix #10: Timeout API call để tránh treo vô hạn
             _offlineEngine = new OfflineTranslationEngine();
         }
 
@@ -39,7 +42,7 @@ namespace ScreenTranslator.Translation
             if (string.IsNullOrWhiteSpace(apiKey))
             {
                 // If API Key is missing, treat as immediate failover instead of returning error
-                Console.WriteLine("API Key is missing. Failing over immediately to Free Google Translate.");
+                _log.Warning("TranslationService", "API Key is missing. Failing over to Free Google Translate.");
                 IsFallbackActive = true;
                 return await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
             }
@@ -73,7 +76,7 @@ namespace ScreenTranslator.Translation
                 if (!response.IsSuccessStatusCode)
                 {
                     var error = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine($"API Error {response.StatusCode}: {error}. Automatically falling back to Free Google Translate.");
+                    _log.Warning("TranslationService", $"API Error {response.StatusCode}: {error}. Falling back to Free Google Translate.");
                     IsFallbackActive = true;
                     return await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
                 }
@@ -101,7 +104,7 @@ namespace ScreenTranslator.Translation
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Translation Engine Error: {ex.Message}. Automatically falling back to Free Google Translate.");
+                _log.Error("TranslationService", $"Translation Engine Error: {ex.Message}. Falling back to Free Google Translate.");
                 IsFallbackActive = true;
                 return await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
             }
