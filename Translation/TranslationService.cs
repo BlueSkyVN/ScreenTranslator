@@ -14,6 +14,7 @@ namespace ScreenTranslator.Translation
         private readonly LogService _log = LogService.Instance;
         
         public bool IsFallbackActive { get; set; } = false;
+        public bool IsOfflineFallback { get; set; } = false;
 
         public TranslationService()
         {
@@ -25,6 +26,7 @@ namespace ScreenTranslator.Translation
         public async Task<string> TranslateAsync(string text, string sourceLang = "auto", string targetLang = "vi", string apiKey = "", string apiType = "groq", string modelName = "llama-3.1-8b-instant")
         {
             IsFallbackActive = false; // Reset fallback status for this request
+            IsOfflineFallback = false;
 
             if (string.IsNullOrWhiteSpace(text))
                 return string.Empty;
@@ -41,10 +43,10 @@ namespace ScreenTranslator.Translation
 
             if (string.IsNullOrWhiteSpace(apiKey))
             {
-                // If API Key is missing, treat as immediate failover instead of returning error
-                _log.Warning("TranslationService", "API Key is missing. Failing over to Free Google Translate.");
+                // Path A: API Key missing → failover cascade (Google → Offline)
+                _log.Warning("TranslationService", "API Key is missing. Initiating failover cascade.");
                 IsFallbackActive = true;
-                return await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
+                return await FallbackWithOfflineAsync(text, sourceLang, targetLang);
             }
 
             try
@@ -75,10 +77,11 @@ namespace ScreenTranslator.Translation
                 
                 if (!response.IsSuccessStatusCode)
                 {
+                    // Path B: HTTP error (401/429/503) → failover cascade
                     var error = await response.Content.ReadAsStringAsync();
-                    _log.Warning("TranslationService", $"API Error {response.StatusCode}: {error}. Falling back to Free Google Translate.");
+                    _log.Warning("TranslationService", $"API Error {response.StatusCode}: {error}. Initiating failover cascade.");
                     IsFallbackActive = true;
-                    return await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
+                    return await FallbackWithOfflineAsync(text, sourceLang, targetLang);
                 }
 
                 var jsonString = await response.Content.ReadAsStringAsync();
@@ -104,10 +107,72 @@ namespace ScreenTranslator.Translation
             }
             catch (Exception ex)
             {
-                _log.Error("TranslationService", $"Translation Engine Error: {ex.Message}. Falling back to Free Google Translate.");
+                // Path C: Exception (timeout/DNS/malformed) → failover cascade
+                _log.Error("TranslationService", $"Translation Engine Error: {ex.Message}. Initiating failover cascade.");
                 IsFallbackActive = true;
-                return await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
+                return await FallbackWithOfflineAsync(text, sourceLang, targetLang);
             }
+        }
+
+        /// <summary>
+        /// Two-tier failover cascade: Google Translate (cloud) → ONNX Offline (local).
+        /// If Google Translate succeeds, returns its result.
+        /// If Google Translate also fails (e.g., no network), automatically routes to
+        /// the local ONNX offline engine if it has been initialized.
+        /// </summary>
+        private async Task<string> FallbackWithOfflineAsync(string text, string sourceLang, string targetLang)
+        {
+            try
+            {
+                // Tier 1: Try Google Translate (free, cloud-based)
+                var result = await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
+                
+                // Check if Google returned an error string (not a real translation)
+                if (!result.StartsWith("Free Google Translate Error:"))
+                {
+                    _log.Info("TranslationService", "Failover Tier 1 succeeded: Google Translate.");
+                    return result;
+                }
+
+                // Google also failed — fall through to Tier 2
+                _log.Warning("TranslationService", $"Google Translate also failed: {result}. Attempting Tier 2: ONNX Offline.");
+            }
+            catch (Exception ex)
+            {
+                _log.Warning("TranslationService", $"Google Translate exception: {ex.Message}. Attempting Tier 2: ONNX Offline.");
+            }
+
+            // Tier 2: Try local ONNX offline engine
+            try
+            {
+                if (_offlineEngine.IsInitialized)
+                {
+                    IsOfflineFallback = true;
+                    var offlineResult = await _offlineEngine.TranslateAsync(text);
+                    _log.Info("TranslationService", "Failover Tier 2 succeeded: ONNX Offline engine.");
+                    return offlineResult;
+                }
+                else
+                {
+                    // Attempt to initialize the offline engine on-demand
+                    bool initialized = _offlineEngine.Initialize();
+                    if (initialized)
+                    {
+                        IsOfflineFallback = true;
+                        var offlineResult = await _offlineEngine.TranslateAsync(text);
+                        _log.Info("TranslationService", "Failover Tier 2 succeeded: ONNX Offline engine (lazy-initialized).");
+                        return offlineResult;
+                    }
+                }
+            }
+            catch (Exception offlineEx)
+            {
+                _log.Error("TranslationService", $"ONNX Offline engine error: {offlineEx.Message}");
+            }
+
+            // All tiers exhausted
+            _log.Error("TranslationService", "All failover tiers exhausted. No translation available.");
+            return "[Translation unavailable — all engines failed. Check network or install offline model.]";
         }
 
         public async Task<string> TranslateViaFreeGoogleAsync(string text, string sourceLang = "auto", string targetLang = "vi")
