@@ -1,0 +1,56 @@
+========================================================================
+             HƯỚNG DẪN CÀI ĐẶT VÀ KHỞI CHẠY SCREEN TRANSLATOR PRO
+========================================================================
+
+Dự án này là một ứng dụng dịch màn hình thời gian thực (Real-Time Screen Translator)
+được viết bằng C# WPF sử dụng kiến trúc MVVM. 
+
+Gói sản phẩm nộp này bao gồm:
+1. Thư mục Mã nguồn (MaNguon/) - Chứa toàn bộ mã nguồn của dự án (đã lược bỏ các file rác build).
+2. Thư mục Chương trình (ChuongTrinh/) - Chứa bộ cài đặt chương trình (Installer) chỉ nặng ~9MB.
+3. Hướng dẫn cài đặt (file này).
+
+------------------------------------------------------------------------
+I. HƯỚNG DẪN CÀI ĐẶT & CHẠY BẰNG BỘ CÀI ĐẶT (MỤC CHƯƠNG TRÌNH)
+------------------------------------------------------------------------
+1. Truy cập vào thư mục: ChuongTrinh/
+2. Chạy file cài đặt: ScreenTranslatorPro_Setup_v3.0.exe
+3. Thực hiện cài đặt theo hướng dẫn trên màn hình (Bạn có thể chọn tạo phím tắt ngoài Desktop).
+4. Khởi chạy ứng dụng từ Desktop hoặc Start Menu với tên "Screen Translator Pro".
+
+* Lưu ý về Runtime:
+Bộ cài này được đóng gói theo dạng Framework-Dependent để tối ưu dung lượng dưới 30MB.
+- Nếu máy tính của bạn đã cài đặt .NET SDK hoặc .NET Runtime 8.0/10.0, ứng dụng sẽ chạy ngay lập tức.
+- Nếu chưa có, Windows sẽ tự động hiển thị thông báo hướng dẫn tải và cài đặt .NET Runtime (chỉ mất 1 phút).
+
+------------------------------------------------------------------------
+II. HƯỚNG DẪN CẤU HÌNH API KEY VÀ SỬ DỤNG
+------------------------------------------------------------------------
+1. Khi mở ứng dụng lần đầu, bạn cần cấu hình API Key dịch thuật.
+2. Ứng dụng hỗ trợ 2 nguồn dịch chính:
+   - Groq API (Mặc định - Dịch siêu tốc <360ms): Nhận key miễn phí tại https://console.groq.com/
+   - OpenAI API (Dịch chuẩn ngữ cảnh): Nhận key tại https://platform.openai.com/
+3. Nhập API Key trực tiếp vào giao diện chính của ứng dụng và nhấn lưu (hoặc chỉnh sửa trong file config.json).
+4. Sử dụng tính năng chọn vùng dịch trên màn hình, sau đó bật "Start Real-Time Translation" để bắt đầu dịch trực tiếp.
+
+------------------------------------------------------------------------
+III. HƯỚNG DẪN BUILD VÀ CHẠY TỪ MÃ NGUỒN (MỤC MÃ NGUỒN)
+------------------------------------------------------------------------
+Yêu cầu hệ thống:
+- Hệ điều hành: Windows 10 hoặc Windows 11 (để sử dụng thư viện Windows.Media.Ocr có sẵn của OS).
+- Công cụ build: .NET SDK (phiên bản 8.0 hoặc cao hơn) hoặc Visual Studio 2022.
+
+Các bước khởi chạy:
+Cách 1: Sử dụng Visual Studio 2022
+1. Mở thư mục MaNguon/
+2. Kích đúp mở file `ScreenTranslator.slnx` hoặc file project `ScreenTranslator.csproj` bằng Visual Studio.
+3. Đợi Visual Studio khôi phục các thư viện NuGet (Restore NuGet Packages).
+4. Nhấn phím F5 hoặc nút Start để build và chạy ứng dụng ở chế độ Debug.
+
+Cách 2: Sử dụng dòng lệnh (Terminal / PowerShell / Command Prompt)
+1. Mở Terminal tại thư mục MaNguon/
+2. Chạy lệnh sau để build và khởi chạy ứng dụng:
+   dotnet run
+
+3. Nếu muốn chạy Unit Tests để kiểm chứng hiệu năng và các scenario test:
+   dotnet test

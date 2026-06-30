@@ -42,3 +42,8 @@ local.properties
 # Local reports
 Report/
 Report
+
+# Installer outputs and ZIP archives
+Installer/Output/
+*.zip
+
