@@ -120,5 +120,19 @@ namespace ScreenTranslator.Tests
             Assert.Contains("Không tìm thấy tệp mô hình ngoại tuyến", result);
             _output.WriteLine($"Offline fallback instruction test passed: {result}");
         }
+        [Fact]
+        public async Task TranslateAsync_FreeGoogle_WhenFailed_FallsBackToOffline()
+        {
+            // Act
+            // Using a very long string to force UriFormatException in TranslateViaFreeGoogleAsync
+            string longText = new string('A', 65500);
+            string result = await _translationService.TranslateAsync(longText, apiType: "free_google");
+
+            // Assert
+            Assert.True(_translationService.IsFallbackActive, "IsFallbackActive should be true when free google fails");
+            Assert.True(_translationService.IsOfflineFallback, "IsOfflineFallback should be true when falling back to offline");
+            Assert.Contains("Không tìm thấy tệp mô hình ngoại tuyến", result);
+            _output.WriteLine($"Free Google fallback to offline test passed: {result}");
+        }
     }
 }

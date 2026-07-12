@@ -33,7 +33,15 @@ namespace ScreenTranslator.Translation
 
             if (apiType == "free_google")
             {
-                return await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
+                var result = await TranslateViaFreeGoogleAsync(text, sourceLang, targetLang);
+                if (result.StartsWith("Free Google Translate Error:"))
+                {
+                    _log.Warning("TranslationService", $"Free Google Translate failed: {result}. Attempting fallback to ONNX Offline.");
+                    IsFallbackActive = true;
+                    IsOfflineFallback = true;
+                    return await _offlineEngine.TranslateAsync(text);
+                }
+                return result;
             }
 
             if (apiType == "local_offline")

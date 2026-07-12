@@ -387,22 +387,22 @@ namespace ScreenTranslator.ViewModels
         private async Task TranslationLoop(CancellationToken token)
         {
             string lastText = "";
-            string apiType = "";
-            string modelName = "";
 
-            var parts = ApiModel.Split('|');
-            if (parts.Length == 2)
-            {
-                apiType = parts[0];
-                modelName = parts[1];
-            }
-
-            _log.Info("TranslationLoop", $"Translation loop started. Engine: {apiType}/{modelName}");
+            _log.Info("TranslationLoop", "Translation loop started.");
 
             while (!token.IsCancellationRequested)
             {
                 try
                 {
+                    string apiType = "groq";
+                    string modelName = "llama-3.1-8b-instant";
+                    var parts = ApiModel.Split('|');
+                    if (parts.Length == 2)
+                    {
+                        apiType = parts[0];
+                        modelName = parts[1];
+                    }
+
                     // --- Capture với đo thời gian ---
                     var captureSw = Stopwatch.StartNew();
                     var softwareBitmap = await _captureService.CaptureRegionAsync(_captureRegion);
@@ -476,7 +476,15 @@ namespace ScreenTranslator.ViewModels
                             {
                                 if (isFallback)
                                 {
-                                    StatusText = "Dự phòng (AI Quá tải -> Google)";
+                                    if (_translationService.IsOfflineFallback)
+                                    {
+                                        StatusText = "Dự phòng (Ngoại tuyến)";
+                                        ApiModel = "local_offline|none";
+                                    }
+                                    else
+                                    {
+                                        StatusText = "Dự phòng (AI Quá tải -> Google)";
+                                    }
                                     StatusColor = "Orange";
                                 }
                                 else if (IsRunning)
